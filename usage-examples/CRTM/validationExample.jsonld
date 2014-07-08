@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "ssn": "http://purl.oclc.org/NET/ssnx/ssn#",
+        "estrn": "http://vocab.linkeddata.es/datosabiertos/def/transporte/transportePublico#",
+        "estrnttp": "http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#",
+        "crtm": "http://crtm.linkeddata.es/datosabiertos/recurso/transporte/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "org": "http://www.w3.org/ns/org#",
+        "s": "http://schema.org/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "ssn:observationResult": {
+            "@type": "@id"
+        },
+        "ssn:observedBy": {
+            "@type": "@id"
+        },
+        "ssn:hasValue": {
+            "@type": "@id"
+        },
+        "ssn:observedProperty": {
+            "@type": "@id"
+        },
+        "ssn:isPropertyOf": {
+            "@type": "@id"
+        },
+        "ssn:featureOfInterest": {
+            "@type": "@id"
+        },
+        "ssn:isProducedBy": {
+            "@type": "@id"
+        },
+        "ssn:observes": {
+            "@type": "@id"
+        },
+        "estrnttp:validationType": {
+            "@type": "@id"
+        },
+        "estrnttp:validationTime": {
+            "@type": "xsd:dateTime"
+        }
+    },
+    "@id": "crtm:observacion/111222333-2002-05-30T09:30:10+02:00",
+    "@type": "estrnttp:CardValidationObservation",
+    "dcterms:title": "Validación de tarjeta 111222333 en 2002-05-30T09:30:10+02:00",
+    "dcterms:identifier": "111222333-2002-05-30T09:30:10+02:00",
+    "sss:observedBy": {
+        "@id":"crtm:dpaypoint/444555666",
+        "@type":"estrnttp:CardValidationSensor"
+    },
+    "sss:observedProperty": {
+        "@id": "estrnttp:entradaUsuario",
+        "@type": "ssn:Property",
+        "ssn:isPropertyOf": "crtm:ttp/111222333"
+    },
+    "ssn:featureOfInterest": {
+        "@id":"crtm:ttp/111222333",
+        "@type":"estrnttp:TarjetaTransporte"
+    },
+    "ssn:observationResult": {
+        "@id": "crtm:resultadoValidacion/111222333-2002-05-30T09:30:10+02:00",
+        "@type": "estrnttp:CardValidationSensorOutput",
+        "ssn:isProducedBy": "crtm:dpaypoint/444555666",
+        "ssn:value": {
+            "@id":"crtm:resultadoValidacion/111222333-2002-05-30T09:30:10+02:00/value",
+            "@type":"estrnttp:CardValidationObservationValue",
+            "estrnttp:validationType": "http://crtm.linkeddata.es/datosabiertos/kos/transporte/tipoValidacion/ant",
+            "estrnttp:validationTime": "2002-05-30T09:30:10+02:00"
+        }
+    }
+}

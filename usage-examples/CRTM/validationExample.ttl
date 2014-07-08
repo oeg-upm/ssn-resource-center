@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://crtm.linkeddata.es/datosabiertos/recurso/transporte/observacion/111222333-2002-05-30T09:30:10+02:00> a <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#CardValidationObservation>;
+   dc:title "Validación de tarjeta 111222333 en 2002-05-30T09:30:10+02:00";
+   <http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest> <http://crtm.linkeddata.es/datosabiertos/recurso/transporte/ttp/111222333>;
+   <http://purl.oclc.org/NET/ssnx/ssn#observationResult> <http://crtm.linkeddata.es/datosabiertos/recurso/transporte/resultadoValidacion/111222333-2002-05-30T09:30:10+02:00>;
+   dc:identifier "111222333-2002-05-30T09:30:10+02:00";
+   <sss:observedBy> <http://crtm.linkeddata.es/datosabiertos/recurso/transporte/dpaypoint/444555666>;
+   <sss:observedProperty> <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#entradaUsuario> .
+
+<http://crtm.linkeddata.es/datosabiertos/recurso/transporte/resultadoValidacion/111222333-2002-05-30T09:30:10+02:00> a <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#CardValidationSensorOutput>;
+   <http://purl.oclc.org/NET/ssnx/ssn#isProducedBy> <http://crtm.linkeddata.es/datosabiertos/recurso/transporte/dpaypoint/444555666>;
+   <http://purl.oclc.org/NET/ssnx/ssn#value> <http://crtm.linkeddata.es/datosabiertos/recurso/transporte/resultadoValidacion/111222333-2002-05-30T09:30:10+02:00/value> .
+
+<http://crtm.linkeddata.es/datosabiertos/recurso/transporte/resultadoValidacion/111222333-2002-05-30T09:30:10+02:00/value> a <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#CardValidationObservationValue>;
+   <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#validationTime> "2002-05-30T09:30:10+02:00"^^xsd:dateTime;
+   <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#validationType> <http://crtm.linkeddata.es/datosabiertos/kos/transporte/tipoValidacion/ant> .
+
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#entradaUsuario> a <http://purl.oclc.org/NET/ssnx/ssn#Property>;
+   <http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf> <http://crtm.linkeddata.es/datosabiertos/recurso/transporte/ttp/111222333> .
+
+<http://crtm.linkeddata.es/datosabiertos/recurso/transporte/dpaypoint/444555666> a <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#CardValidationSensor> .
+
+<http://crtm.linkeddata.es/datosabiertos/recurso/transporte/ttp/111222333> a <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#TarjetaTransporte> .
