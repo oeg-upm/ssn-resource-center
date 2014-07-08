@@ -53,7 +53,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1033.4474877661999, 632.77498951320865}, {131, 38}}</string>
+			<string>{{86.344321269409591, 269.32396419349061}, {155, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -73,13 +73,13 @@
 				<real>12</real>
 			</dict>
 			<key>ID</key>
-			<integer>427</integer>
+			<integer>430</integer>
 			<key>Line</key>
 			<dict>
 				<key>ID</key>
-				<integer>426</integer>
+				<integer>429</integer>
 				<key>Position</key>
-				<real>0.49987161159515381</real>
+				<real>0.4065493643283844</real>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
@@ -87,6 +87,11 @@
 			<string>Rectangle</string>
 			<key>Style</key>
 			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
 				<key>shadow</key>
 				<dict>
 					<key>Draws</key>
@@ -106,8 +111,7 @@
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 some\
-estrnttp:validationTime}</string>
+\f0\fs24 \cf0 ssn:observationResultTime}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -118,14 +122,14 @@ estrnttp:validationTime}</string>
 			<key>Head</key>
 			<dict>
 				<key>ID</key>
-				<integer>423</integer>
+				<integer>428</integer>
 			</dict>
 			<key>ID</key>
-			<integer>426</integer>
+			<integer>429</integer>
 			<key>Points</key>
 			<array>
-				<string>{996.49690057742578, 640.30005768017008}</string>
-				<string>{1201.4507145576613, 663.25581722121603}</string>
+				<string>{163.84432126940959, 308.60577392578125}</string>
+				<string>{163.84432126940959, 241.49999999999997}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -142,12 +146,45 @@ estrnttp:validationTime}</string>
 			<key>Tail</key>
 			<dict>
 				<key>ID</key>
-				<integer>390</integer>
+				<integer>11</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1033.4475232771713, 586.86079053685546}, {131, 38}}</string>
+			<string>{{100.62678527832031, 192}, {126.435053380783, 49}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>428</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Fuzziness</key>
+					<real>11.454514503479004</real>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>CornerRadius</key>
+					<real>10</real>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
+
+\f0\fs24 \cf0 xsd:dateTime}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{1035.0182551321811, 618.50001406069953}, {131, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -200,8 +237,7 @@ estrnttp:validationTime}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 some\
-estrnttp:validationType}</string>
+\f0\fs24 \cf0 estrnttp:validationType}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -218,8 +254,8 @@ estrnttp:validationType}</string>
 			<integer>424</integer>
 			<key>Points</key>
 			<array>
-				<string>{996.49585341658656, 619.15040333636682}</string>
-				<string>{1201.4518210772592, 592.56435105565708}</string>
+				<string>{996.50000761115018, 630.50001406069953}</string>
+				<string>{1204.5899353209786, 630.50001406069953}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -241,35 +277,7 @@ estrnttp:validationType}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{1201.9476089477539, 645.89044189453125}, {126.435053380783, 49}}</string>
-			<key>Class</key>
-			<string>ShapedGraphic</string>
-			<key>ID</key>
-			<integer>423</integer>
-			<key>Shape</key>
-			<string>Rectangle</string>
-			<key>Style</key>
-			<dict>
-				<key>shadow</key>
-				<dict>
-					<key>Fuzziness</key>
-					<real>11.454514503479004</real>
-				</dict>
-			</dict>
-			<key>Text</key>
-			<dict>
-				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
-
-\f0\fs24 \cf0 xsd:dateTime}</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Bounds</key>
-			<string>{{1201.9476470947266, 559.77980804443359}, {126.435053380783, 49}}</string>
+			<string>{{1205.0899353027344, 606.00002288818359}, {126.435053380783, 49}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -302,7 +310,7 @@ estrnttp:validationType}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{463.72740379678703, 912.5}, {123, 38}}</string>
+			<string>{{463.72740379678703, 919.5}, {123, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -355,8 +363,7 @@ estrnttp:validationType}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 only \
-ssn:featureOfInterest}</string>
+\f0\fs24 \cf0 ssn:featureOfInterest}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -398,7 +405,7 @@ ssn:featureOfInterest}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{640.25701455613944, 611.50000354582244}, {82, 38}}</string>
+			<string>{{633.00887575587603, 618.50000354582244}, {82, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -451,8 +458,7 @@ ssn:featureOfInterest}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 some\
-ssn:hasValue}</string>
+\f0\fs24 \cf0 ssn:hasValue}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -469,8 +475,8 @@ ssn:hasValue}</string>
 			<integer>404</integer>
 			<key>Points</key>
 			<array>
-				<string>{541.086008576685, 630.50000354582244}</string>
-				<string>{821.50000763368791, 630.50000354582244}</string>
+				<string>{541.08600857645183, 630.50000354582244}</string>
+				<string>{807.0000076339212, 630.50000354582244}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -492,7 +498,7 @@ ssn:hasValue}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{630.80914013691495, 843.35798954406641}, {97, 38}}</string>
+			<string>{{630.80914013691495, 850.35798954406641}, {97, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -545,8 +551,7 @@ ssn:hasValue}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 hasValue\
-ssn:hasProperty}</string>
+\f0\fs24 \cf0 ssn:hasProperty}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -586,7 +591,7 @@ ssn:hasProperty}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{366.93167192407611, 728.07327980256605}, {96, 38}}</string>
+			<string>{{366.93167192407611, 735.07327980256605}, {96, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -639,8 +644,7 @@ ssn:hasProperty}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 only \
-ssn:observedBy}</string>
+\f0\fs24 \cf0 ssn:observedBy}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -680,7 +684,7 @@ ssn:observedBy}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{560.560849937287, 778.98790431048599}, {81, 38}}</string>
+			<string>{{560.560849937287, 785.98790431048599}, {81, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -733,8 +737,7 @@ ssn:observedBy}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 hasValue \
-ssn:observes}</string>
+\f0\fs24 \cf0 ssn:observes}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -774,7 +777,7 @@ ssn:observes}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{223.44936445072506, 780.110930621222}, {127, 38}}</string>
+			<string>{{223.44936445072506, 787.110930621222}, {127, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -827,8 +830,7 @@ ssn:observes}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 hasValue \
-ssn:observedProperty}</string>
+\f0\fs24 \cf0 ssn:observedProperty}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -897,7 +899,7 @@ entradaUsuario}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{524.55031733122428, 663.39931720599463}, {103, 38}}</string>
+			<string>{{524.55031733122428, 670.39931720599463}, {103, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -950,8 +952,7 @@ entradaUsuario}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 only \
-ssn:isProvidedBy}</string>
+\f0\fs24 \cf0 ssn:isProvidedBy}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -1059,7 +1060,7 @@ TarjetaTransporte}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{822.00000762939453, 606.00000762939453}, {174, 49}}</string>
+			<string>{{807.50000762939453, 606.00000762939453}, {188.5, 49}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1088,12 +1089,12 @@ TarjetaTransporte}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\fs24 \cf0 estrnttp:\
-CardValidationSensorOutput}</string>
+CardValidationObservationValue}</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{226.81787464247395, 676.3831074743166}, {129, 38}}</string>
+			<string>{{226.81787464247395, 683.3831074743166}, {129, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1146,8 +1147,7 @@ CardValidationSensorOutput}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 only \
-ssn:observationResult}</string>
+\f0\fs24 \cf0 ssn:observationResult}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -1352,7 +1352,7 @@ CardValidationObservation}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{798.06280451915518, 564.24379253237498}, {96, 24}}</string>
+			<string>{{794.78244007929368, 563.04460930783466}, {96, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1422,7 +1422,7 @@ CardValidationObservation}</string>
 			<integer>418</integer>
 			<key>Points</key>
 			<array>
-				<string>{880.20130557215896, 605.67353781319537}</string>
+				<string>{875.33410958817149, 605.65746775943796}</string>
 				<string>{822.00000762939453, 555.5}</string>
 				<string>{822.00000762939453, 289.5}</string>
 				<string>{884.73735149284937, 241.3046084158857}</string>
@@ -1891,8 +1891,8 @@ CardValidationObservation}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 only \
-ssn:featureOfInterest}</string>
+\f0\fs24 \cf0 ssn:featureOfInterest\
+}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -1992,8 +1992,8 @@ ssn:featureOfInterest}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 some\
-ssn:hasValue}</string>
+\f0\fs24 \cf0 ssn:hasValue\
+}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -2091,8 +2091,8 @@ ssn:hasValue}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 some\
-ssn:isPropertyOf}</string>
+\f0\fs24 \cf0 ssn:isPropertyOf\
+}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -2132,7 +2132,7 @@ ssn:isPropertyOf}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{356.73558642996431, 314.10254468990962}, {96, 38}}</string>
+			<string>{{391.7082737927783, 314.02948567696973}, {96, 38}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2158,7 +2158,7 @@ ssn:isPropertyOf}</string>
 				<key>ID</key>
 				<integer>377</integer>
 				<key>Position</key>
-				<real>0.4065493643283844</real>
+				<real>0.4867989718914032</real>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
@@ -2190,8 +2190,8 @@ ssn:isPropertyOf}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 only \
-ssn:observedBy}</string>
+\f0\fs24 \cf0 ssn:observedBy\
+}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -2231,7 +2231,7 @@ ssn:observedBy}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{562.42721257665983, 365.27965913827973}, {81, 38}}</string>
+			<string>{{562.42721257665983, 372.27965913827973}, {81, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2289,8 +2289,7 @@ ssn:observedBy}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 only \
-ssn:observes}</string>
+\f0\fs24 \cf0 ssn:observes}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -2330,7 +2329,7 @@ ssn:observes}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{226.78159091172296, 365.91038670206143}, {127, 38}}</string>
+			<string>{{226.78159091172296, 372.91038670206143}, {127, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2388,8 +2387,7 @@ ssn:observes}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 only \
-ssn:observedProperty}</string>
+\f0\fs24 \cf0 ssn:observedProperty}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -2462,7 +2460,7 @@ ssn:observedProperty}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{520.769935096626, 249.10060760158512}, {103, 38}}</string>
+			<string>{{520.769935096626, 256.10060760158512}, {103, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2520,8 +2518,7 @@ ssn:observedProperty}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 only \
-ssn:isProvidedBy}</string>
+\f0\fs24 \cf0 ssn:isProvidedBy}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -2660,7 +2657,7 @@ ssn:isProvidedBy}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{225.70613113824044, 262.54656235694517}, {129, 38}}</string>
+			<string>{{256.28391105881599, 256.9489666223119}, {129, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2686,7 +2683,7 @@ ssn:isProvidedBy}</string>
 				<key>ID</key>
 				<integer>258</integer>
 				<key>Position</key>
-				<real>0.4065493643283844</real>
+				<real>0.5878416895866394</real>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
@@ -2718,8 +2715,7 @@ ssn:isProvidedBy}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 only \
-ssn:observationResult}</string>
+\f0\fs24 \cf0 ssn:observationResult}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -2898,7 +2894,7 @@ ssn:observationResult}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-07-08 16:21:56 +0000</string>
+	<string>2014-07-08 16:51:25 +0000</string>
 	<key>Modifier</key>
 	<string>Oscar Corcho</string>
 	<key>NotesVisible</key>
@@ -2993,7 +2989,7 @@ ssn:observationResult}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{71.5, 259}, {1305, 690}}</string>
+		<string>{{57.5, 362.5}, {1305, 690}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
