@@ -30,6 +30,9 @@
         "ssn:isProducedBy": {
             "@type": "@id"
         },
+        "ssn:observationResultTime": {
+            "@type": "xsd:dateTime"
+        },
         "ssn:observes": {
             "@type": "@id"
         }
