@@ -107,7 +107,7 @@
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\fs24 \cf0 only \
-son:featureOfInterest}</string>
+ssn:featureOfInterest}</string>
 			</dict>
 			<key>Wrap</key>
 			<string>NO</string>
@@ -243,7 +243,7 @@ ssn:hasValue}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{632.37408154316495, 429.35796329827713}, {99, 38}}</string>
+			<string>{{632.37408154316495, 429.35798889100266}, {99, 38}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -314,8 +314,8 @@ ssn:isPropertyOf}</string>
 			<integer>379</integer>
 			<key>Points</key>
 			<array>
-				<string>{511.80929650203279, 448.78516348194125}</string>
-				<string>{852.02624668587896, 447.93054361711125}</string>
+				<string>{511.80929650203285, 448.78517045725573}</string>
+				<string>{852.02624668587907, 447.93058783681357}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -337,7 +337,7 @@ ssn:isPropertyOf}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{356.73558642996011, 314.10248993978354}, {96, 38}}</string>
+			<string>{{356.73558642996431, 314.10254379906195}, {96, 38}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -408,8 +408,8 @@ ssn:observedBy}</string>
 			<integer>377</integer>
 			<key>Points</key>
 			<array>
-				<string>{227.56183757340995, 333.47265158527318}</string>
-				<string>{663.36069597093683, 332.56215539964728}</string>
+				<string>{227.56183757340992, 333.47266583145114}</string>
+				<string>{663.36069597094729, 332.56226708319423}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -431,7 +431,7 @@ ssn:observedBy}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{562.34597380171419, 365.24711249198032}, {81, 38}}</string>
+			<string>{{562.42179666933964, 365.27745927198913}, {81, 38}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -502,8 +502,8 @@ ssn:observes}</string>
 			<integer>375</integer>
 			<key>Points</key>
 			<array>
-				<string>{669.63508552171743, 356.38900794569957}</string>
-				<string>{505.35216571848343, 424.91231417311366}</string>
+				<string>{669.66976913538997, 356.40319675765721}</string>
+				<string>{505.48805266335137, 424.96624213439748}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -525,7 +525,7 @@ ssn:observes}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{226.71114805363146, 365.94684299194466}, {127, 38}}</string>
+			<string>{{226.7768896630094, 365.91278953309586}, {127, 38}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -596,8 +596,8 @@ ssn:observedProperty}</string>
 			<integer>373</integer>
 			<key>Points</key>
 			<array>
-				<string>{222.00625618149257, 357.23615423255762}</string>
-				<string>{389.77159504707589, 425.39685300812909}</string>
+				<string>{222.03680418806502, 357.22059821375865}</string>
+				<string>{389.88872197436712, 425.33580335022646}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -652,7 +652,7 @@ ssn:observedProperty}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{520.78684171094176, 249.09343832824754}, {103, 38}}</string>
+			<string>{{520.77107583986503, 249.10012280085436}, {103, 38}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -723,8 +723,8 @@ ssn:isProvidedBy}</string>
 			<integer>370</integer>
 			<key>Points</key>
 			<array>
-				<string>{505.65080547229661, 240.41132327355612}</string>
-				<string>{669.5571895069321, 308.5017385677038}</string>
+				<string>{505.643512831816, 240.41442711991766}</string>
+				<string>{669.52904302800187, 308.51364478111941}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -845,7 +845,7 @@ ssn:isProvidedBy}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{225.76504893019143, 262.57317465896489}, {129, 38}}</string>
+			<string>{{225.70995873258522, 262.5482993672216}, {129, 38}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -916,8 +916,8 @@ ssn:observationResult}</string>
 			<integer>258</integer>
 			<key>Points</key>
 			<array>
-				<string>{221.66199732340999, 309.80900984337802}</string>
-				<string>{390.40669999958561, 240.35659480625594}</string>
+				<string>{221.63699758935945, 309.79755279595588}</string>
+				<string>{390.30767360856748, 240.31213764944587}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1051,7 +1051,7 @@ ssn:observationResult}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-07-08 14:45:24 +0000</string>
+	<string>2014-07-08 16:22:40 +0000</string>
 	<key>Modifier</key>
 	<string>Oscar Corcho</string>
 	<key>NotesVisible</key>
