@@ -1,0 +1,14 @@
+SELECT DISTINCT (?feature AS ?idTitulo) (?title AS ?tituloCarga) (?type AS ?tipoCarga) (?profile as ?perfil) (?property AS ?propiedad) (?time AS ?fecha) (?observedBy AS ?dsalepoint)
+WHERE {
+	?obs a ttp:CardChargeObservation .
+	?obs ssn:observationResultTime ?time .
+	?obs ssn:observedBy ?observedBy . 
+	?obs ssn:featureOfInterest ?feature . 
+	?obs ssn:observationResult ?sensorOutput . 
+	?sensorOutput ssn:hasValue ?obsValue .
+	?obsValue ttp:chargeTitle ?title .
+	?obsValue ttp:chargeProfile ?profile .
+	?obsValue ttp:chargeType ?type .
+	?obs ssn:observedProperty ?property .
+	FILTER(month(?time)=8 && year(?time)=2013)
+} LIMIT 100
