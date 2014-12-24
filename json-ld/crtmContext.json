@@ -1,0 +1,7 @@
+{
+    "@context": {
+        "estrn": "http://vocab.linkeddata.es/datosabiertos/def/transporte/transportePublico#",
+        "estrnttp": "http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#",
+        "crtm": "http://crtm.linkeddata.es/datosabiertos/recurso/transporte/"
+    }
+}
