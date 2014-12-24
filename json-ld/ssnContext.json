@@ -1,9 +1,6 @@
 {
     "@context": {
         "ssn": "http://purl.oclc.org/NET/ssnx/ssn#",
-        "estrn": "http://vocab.linkeddata.es/datosabiertos/def/transporte/transportePublico#",
-        "estrnttp": "http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#",
-        "crtm": "http://crtm.linkeddata.es/datosabiertos/recurso/transporte/",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "org": "http://www.w3.org/ns/org#",
