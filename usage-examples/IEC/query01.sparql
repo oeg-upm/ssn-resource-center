@@ -1,0 +1,16 @@
+# query1 : Manufacturer and model of Active Energy sensors
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX iec: <http://linkeddata.metscale.es/ontology/IndustrialEnergyConsumption#>
+PREFIX s: <http://schema.org/>
+PREFIX ssn: <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT ?sensor ?modelName ?manufacturerName
+WHERE {
+	?sensor a iec:PowerAnalyzer_ActiveEnergy .
+	?sensor ssn:onPlatform ?platform .
+	?platform s:model ?model .
+	?model s:manufacturer ?manufacturer .
+	?model s:name ?modelName .
+	?manufacturer s:name ?manufacturerName
+}

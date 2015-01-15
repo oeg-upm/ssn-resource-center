@@ -1,0 +1,21 @@
+# query1 : Location of the sensor with the higest measure of Active Energy
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX iec: <http://linkeddata.metscale.es/ontology/IndustrialEnergyConsumption#>
+PREFIX s: <http://schema.org/>
+PREFIX ssn: <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX dul: <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+SELECT ?sensor max(?value) ?platform ?latitude ?longitude ?elevation
+WHERE {
+	?obs ssn:observedProperty <http://linkeddata.metscale.es/resource/ActiveEnergyProperty>
+	?obs ssn:observedBy ?sensor .
+	?obs ssn:observationResult ?result .
+	?result ssn:hasValue ?value .
+	?sensor ssn:onPlatform ?platform .
+	?platform dul:hasLocation ?location .
+	?location wgs84:lat ?latitude .
+	?location wgs84:long ?longitude .
+	?location wgs84:alt ?elevation .
+}
