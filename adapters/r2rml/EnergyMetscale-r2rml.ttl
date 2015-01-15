@@ -1,0 +1,618 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix s: <http://schema.org/> .
+@prefix wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dul: <http://www.loa-cnr.it/ontologies/DUL.owl#> .
+@prefix qudt: <http://data.nasa.gov/qudt/owl/qudt#> .
+@prefix iec: <http://linkeddata.metscale.es/ontology/IndustrialEnergyConsumption#> . 
+@base <http://linkeddata.metscale.es/> .
+
+<TriplesMapProductManufacturer>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [ 
+        rr:sqlQuery  """SELECT device.manufacturer manufacturer FROM T_METS_DEVICE device GROUP BY manufacturer""" 
+    ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/Manufacturer/{manufacturer}";
+    rr:termType rr:IRI;
+    rr:class s:Organization;
+  ];     
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:name ]; 
+    rr:objectMap    [ rr:column "manufacturer"; rr:termType rr:Literal; ]; 
+  ]; 
+.
+
+<TriplesMapProductModel>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [
+        rr:sqlQuery  """SELECT device.model model, device.manufacturer manufacturer FROM T_METS_DEVICE device GROUP BY model""" 
+    ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/Manufacturer/{manufacturer}/Model/{model}";
+    rr:termType rr:IRI;
+    rr:class s:ProductModel;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:name ]; 
+    rr:objectMap    [ rr:column "model"; rr:termType rr:Literal; ]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:manufacturer ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapProductManufacturer>;
+       rr:joinCondition [ rr:child "manufacturer" ; rr:parent "manufacturer" ; ]
+    ];
+  ];        
+.
+
+<TriplesMapPoint>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT device.latitude latitude, device.longitude longitude, device.elevation elevation FROM T_METS_DEVICE device GROUP BY latitude, longitude, elevation""" 
+    ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/Point/{latitude}_{longitude}_{elevation}";
+    rr:termType rr:IRI;
+    rr:class wgs84:Point;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant wgs84:lat ]; 
+    rr:objectMap    [ rr:column "latitude"; rr:termType rr:Literal; rr:datatype xsd:double;]; 
+  ];        
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant wgs84:long ]; 
+    rr:objectMap    [ rr:column "longitude"; rr:termType rr:Literal; rr:datatype xsd:double;]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant wgs84:alt ]; 
+    rr:objectMap    [ rr:column "elevation"; rr:termType rr:Literal; rr:datatype xsd:double;]; 
+  ];
+.
+
+<TriplesMapPowerAnalyzer>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [ 
+        rr:sqlQuery  """SELECT device.id id, device.serial serial, device.name name, device.description description, device.ip ip, device.domain domain, device.disposition disposition, device.exposure exposure, device.status status, device.model model, device.latitude latitude, device.longitude longitude, device.elevation elevation FROM T_METS_DEVICE device""" 
+    ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/Platform/{serial}";
+    rr:termType rr:IRI;
+    rr:class iec:PowerAnalyzer;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:serial ]; 
+    rr:objectMap    [ rr:column "serial"; rr:termType rr:Literal; ]; 
+  ];
+  
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:name ]; 
+    rr:objectMap    [ rr:column "name"; rr:termType rr:Literal; ]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:description ]; 
+    rr:objectMap    [ rr:column "description"; rr:termType rr:Literal;]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:ip_address ]; 
+    rr:objectMap    [ rr:column "ip"; rr:termType rr:Literal; ];
+  ];  
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:domain ]; 
+    rr:objectMap    [ rr:column "domain"; rr:termType rr:Literal; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:disposition ]; 
+    rr:objectMap    [ rr:column "disposition"; rr:termType rr:Literal; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:exposure ]; 
+    rr:objectMap    [ rr:column "exposure"; rr:termType rr:Literal; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:status ]; 
+    rr:objectMap    [ rr:column "status"; rr:termType rr:Literal; ];
+  ];  
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:model ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapProductModel>;
+       rr:joinCondition [ rr:child "model" ; rr:parent "model" ; ]
+    ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant dul:hasLocation ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapPoint>;
+       rr:joinCondition [ rr:child "latitude" ; rr:parent "latitude" ; ];
+       rr:joinCondition [ rr:child "longitude" ; rr:parent "longitude" ; ];
+       rr:joinCondition [ rr:child "elevation" ; rr:parent "elevation" ; ];
+    ];
+  ];   
+.
+
+# Active Energy
+
+<TriplesMapActiveEnergySensor>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datastream.id id, datastream.title name, datastream.description description, datastream.type type, datastream.symbol symbol, datastream.device_id device_id FROM T_METS_DATA_STREAM datastream WHERE datastream.code = 'energy.active'""" 
+    ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/Sensor/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:PowerAnalyzer_ActiveEnergy;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:name ]; 
+    rr:objectMap    [ rr:column "name"; rr:termType rr:Literal; ]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:description ]; 
+    rr:objectMap    [ rr:column "description"; rr:termType rr:Literal; ]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:type ]; 
+    rr:objectMap    [ rr:column "type"; rr:termType rr:Literal; ];
+  ];  
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:unitOfMeasure ]; 
+    rr:objectMap    [ rr:column "symbol"; rr:termType rr:Literal; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observes ]; 
+    rr:objectMap    [ rr:termType rr:IRI; rr:constant "http://linkeddata.metscale.es/resource/ActiveEnergyProperty"; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:onPlatform ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapPowerAnalyzer>;
+       rr:joinCondition [ rr:child "device_id" ; rr:parent "id" ; ]
+    ];
+ ];        
+.
+
+<TriplesMapActiveEnergyValue>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datapoint.id id, datapoint.value value, datapoint.stream_id stream_id FROM T_METS_DATA_STREAM datastream, T_METS_DATA_POINT datapoint WHERE datastream.code='energy.active' AND datastream.id=datapoint.stream_id""" 
+  ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/ActiveEnergy/Value/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:ActiveEnergyValue;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant qudt:numericValue ]; 
+    rr:objectMap    [ rr:column "value"; rr:termType rr:Literal; rr:datatype xsd:double;]; 
+  ];        
+.
+
+<TriplesMapActiveEnergyOutput>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datapoint.id id, datapoint.stream_id stream_id FROM T_METS_DATA_STREAM datastream, T_METS_DATA_POINT datapoint WHERE datastream.code='energy.active' AND datastream.id=datapoint.stream_id""" 
+  ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/ActiveEnergy/Output/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:ActiveEnergyOutput;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:isProvidedBy ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapActiveEnergySensor>;
+       rr:joinCondition [ rr:child "stream_id" ; rr:parent "id" ; ]
+    ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:hasValue ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapActiveEnergyValue>;
+       rr:joinCondition [ rr:child "id" ; rr:parent "id" ; ]
+    ];
+ ];        
+.
+
+<TriplesMapActiveEnergyObservation>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datapoint.id id, datapoint.stream_id stream_id, datapoint.EPOCH_DATE resultTime, datapoint.FROM_EPOCH_DATE samplingTime FROM T_METS_DATA_STREAM datastream, T_METS_DATA_POINT datapoint WHERE datastream.code='energy.active' AND datastream.id=datapoint.stream_id""" 
+  ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/ActiveEnergy/Observation/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:ActiveEnergyObservation;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observationResultTime ]; 
+    rr:objectMap    [ rr:column "resultTime"; rr:termType rr:Literal; rr:datatype xsd:long;]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observationSamplingTime ]; 
+    rr:objectMap    [ rr:column "samplingTime"; rr:termType rr:Literal; rr:datatype xsd:long;]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observedBy ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapActiveEnergySensor>;
+       rr:joinCondition [ rr:child "stream_id" ; rr:parent "id" ; ]
+    ];
+  ];
+
+  rr:predicateObjectMap [ 
+      rr:predicateMap [ rr:constant ssn:observedProperty ]; 
+      rr:objectMap    [ rr:termType rr:IRI; rr:constant "http://linkeddata.metscale.es/resource/ActiveEnergyProperty"; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observationResult ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapActiveEnergyOutput>;
+       rr:joinCondition [ rr:child "id" ; rr:parent "id" ; ]
+    ];
+  ];
+
+  rr:predicateObjectMap [ 
+      rr:predicateMap [ rr:constant ssn:featureOfInterest ]; 
+      rr:objectMap    [ rr:termType rr:IRI; rr:constant "http://linkeddata.metscale.es/resource/Feature/DataCenterPowerGrid"; ];
+  ];        
+.
+
+# Apparent Energy
+
+<TriplesMapApparentEnergySensor>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datastream.id id, datastream.title name, datastream.description description, datastream.type type, datastream.symbol symbol, datastream.device_id device_id FROM T_METS_DATA_STREAM datastream WHERE datastream.code = 'energy.apparent'""" 
+    ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/Sensor/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:PowerAnalyzer_ApparentEnergy;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:name ]; 
+    rr:objectMap    [ rr:column "name"; rr:termType rr:Literal; ]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:description ]; 
+    rr:objectMap    [ rr:column "description"; rr:termType rr:Literal; ]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:type ]; 
+    rr:objectMap    [ rr:column "type"; rr:termType rr:Literal; ];
+  ];  
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:unitOfMeasure ]; 
+    rr:objectMap    [ rr:column "symbol"; rr:termType rr:Literal; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observes ]; 
+    rr:objectMap    [ rr:termType rr:IRI; rr:constant "http://linkeddata.metscale.es/resource/ApparentEnergyProperty"; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:onPlatform ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapPowerAnalyzer>;
+       rr:joinCondition [ rr:child "device_id" ; rr:parent "id" ; ]
+    ];
+ ];        
+.
+
+<TriplesMapApparentEnergyValue>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datapoint.id id, datapoint.value value, datapoint.stream_id stream_id FROM T_METS_DATA_STREAM datastream, T_METS_DATA_POINT datapoint WHERE datastream.code='energy.apparent' AND datastream.id=datapoint.stream_id""" 
+  ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/ApparentEnergy/Value/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:ApparentEnergyValue;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant qudt:numericValue ]; 
+    rr:objectMap    [ rr:column "value"; rr:termType rr:Literal; rr:datatype xsd:double;]; 
+  ];        
+.
+
+<TriplesMapApparentEnergyOutput>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datapoint.id id, datapoint.stream_id stream_id FROM T_METS_DATA_STREAM datastream, T_METS_DATA_POINT datapoint WHERE datastream.code='energy.apparent' AND datastream.id=datapoint.stream_id""" 
+  ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/ApparentEnergy/Output/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:ApparentEnergyOutput;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:isProvidedBy ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapApparentEnergySensor>;
+       rr:joinCondition [ rr:child "stream_id" ; rr:parent "id" ; ]
+    ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:hasValue ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapApparentEnergyValue>;
+       rr:joinCondition [ rr:child "id" ; rr:parent "id" ; ]
+    ];
+ ];        
+.
+
+<TriplesMapApparentEnergyObservation>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datapoint.id id, datapoint.stream_id stream_id, datapoint.EPOCH_DATE resultTime, datapoint.FROM_EPOCH_DATE samplingTime FROM T_METS_DATA_STREAM datastream, T_METS_DATA_POINT datapoint WHERE datastream.code='energy.apparent' AND datastream.id=datapoint.stream_id""" 
+  ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/ApparentEnergy/Observation/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:ApparentEnergyObservation;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observationResultTime ]; 
+    rr:objectMap    [ rr:column "resultTime"; rr:termType rr:Literal; rr:datatype xsd:long;]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observationSamplingTime ]; 
+    rr:objectMap    [ rr:column "samplingTime"; rr:termType rr:Literal; rr:datatype xsd:long;]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observedBy ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapApparentEnergySensor>;
+       rr:joinCondition [ rr:child "stream_id" ; rr:parent "id" ; ]
+    ];
+  ];
+
+  rr:predicateObjectMap [ 
+      rr:predicateMap [ rr:constant ssn:observedProperty ]; 
+      rr:objectMap    [ rr:termType rr:IRI; rr:constant "http://linkeddata.metscale.es/resource/ApparentEnergyProperty"; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observationResult ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapApparentEnergyOutput>;
+       rr:joinCondition [ rr:child "id" ; rr:parent "id" ; ]
+    ];
+  ];
+
+  rr:predicateObjectMap [ 
+      rr:predicateMap [ rr:constant ssn:featureOfInterest ]; 
+      rr:objectMap    [ rr:termType rr:IRI; rr:constant "http://linkeddata.metscale.es/resource/Feature/DataCenterPowerGrid"; ];
+  ];        
+.
+
+# Capacitive Reactive Energy
+
+<TriplesMapCapacitiveReactiveEnergySensor>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datastream.id id, datastream.title name, datastream.description description, datastream.type type, datastream.symbol symbol, datastream.device_id device_id FROM T_METS_DATA_STREAM datastream WHERE datastream.code = 'energy.reactive.capacitive'""" 
+    ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/Sensor/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:PowerAnalyzer_CapacitiveReactiveEnergy;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:name ]; 
+    rr:objectMap    [ rr:column "name"; rr:termType rr:Literal; ]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant s:description ]; 
+    rr:objectMap    [ rr:column "description"; rr:termType rr:Literal; ]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:type ]; 
+    rr:objectMap    [ rr:column "type"; rr:termType rr:Literal; ];
+  ];  
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant iec:unitOfMeasure ]; 
+    rr:objectMap    [ rr:column "symbol"; rr:termType rr:Literal; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observes ]; 
+    rr:objectMap    [ rr:termType rr:IRI; rr:constant "http://linkeddata.metscale.es/resource/CapacitiveReactiveEnergyProperty"; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:onPlatform ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapPowerAnalyzer>;
+       rr:joinCondition [ rr:child "device_id" ; rr:parent "id" ; ]
+    ];
+ ];        
+.
+
+<TriplesMapCapacitiveReactiveEnergyValue>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datapoint.id id, datapoint.value value, datapoint.stream_id stream_id FROM T_METS_DATA_STREAM datastream, T_METS_DATA_POINT datapoint WHERE datastream.code='energy.reactive.capacitive' AND datastream.id=datapoint.stream_id""" 
+  ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/CapacitiveReactiveEnergy/Value/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:CapacitiveReactiveEnergyValue;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant qudt:numericValue ]; 
+    rr:objectMap    [ rr:column "value"; rr:termType rr:Literal; rr:datatype xsd:double;]; 
+  ];        
+.
+
+<TriplesMapCapacitiveReactiveEnergyOutput>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datapoint.id id, datapoint.stream_id stream_id FROM T_METS_DATA_STREAM datastream, T_METS_DATA_POINT datapoint WHERE datastream.code='energy.reactive.capacitive' AND datastream.id=datapoint.stream_id""" 
+  ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/CapacitiveReactiveEnergy/Output/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:CapacitiveReactiveEnergyOutput;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:isProvidedBy ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapCapacitiveReactiveEnergySensor>;
+       rr:joinCondition [ rr:child "stream_id" ; rr:parent "id" ; ]
+    ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:hasValue ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapCapacitiveReactiveEnergyValue>;
+       rr:joinCondition [ rr:child "id" ; rr:parent "id" ; ]
+    ];
+ ];        
+.
+
+<TriplesMapCapacitiveReactiveEnergyObservation>
+  a rr:TriplesMap;
+        
+  rr:logicalTable [  
+        rr:sqlQuery  """SELECT datapoint.id id, datapoint.stream_id stream_id, datapoint.EPOCH_DATE resultTime, datapoint.FROM_EPOCH_DATE samplingTime FROM T_METS_DATA_STREAM datastream, T_METS_DATA_POINT datapoint WHERE datastream.code='energy.reactive.capacitive' AND datastream.id=datapoint.stream_id""" 
+  ];
+  
+  rr:subjectMap [    
+    a rr:Subject;
+    rr:template "http://linkeddata.metscale.es/resource/CapacitiveReactiveEnergy/Observation/{id}";
+    rr:termType rr:IRI;
+    rr:class iec:CapacitiveReactiveEnergyObservation;
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observationResultTime ]; 
+    rr:objectMap    [ rr:column "resultTime"; rr:termType rr:Literal; rr:datatype xsd:long;]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observationSamplingTime ]; 
+    rr:objectMap    [ rr:column "samplingTime"; rr:termType rr:Literal; rr:datatype xsd:long;]; 
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observedBy ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapCapacitiveReactiveEnergySensor>;
+       rr:joinCondition [ rr:child "stream_id" ; rr:parent "id" ; ]
+    ];
+  ];
+
+  rr:predicateObjectMap [ 
+      rr:predicateMap [ rr:constant ssn:observedProperty ]; 
+      rr:objectMap    [ rr:termType rr:IRI; rr:constant "http://linkeddata.metscale.es/resource/CapacitiveReactiveEnergyProperty"; ];
+  ];
+
+  rr:predicateObjectMap [ 
+    rr:predicateMap [ rr:constant ssn:observationResult ]; 
+    rr:objectMap    [ 
+       rr:parentTriplesMap <TriplesMapCapacitiveReactiveEnergyOutput>;
+       rr:joinCondition [ rr:child "id" ; rr:parent "id" ; ]
+    ];
+  ];
+
+  rr:predicateObjectMap [ 
+      rr:predicateMap [ rr:constant ssn:featureOfInterest ]; 
+      rr:objectMap    [ rr:termType rr:IRI; rr:constant "http://linkeddata.metscale.es/resource/Feature/DataCenterPowerGrid"; ];
+  ];        
+.
+
