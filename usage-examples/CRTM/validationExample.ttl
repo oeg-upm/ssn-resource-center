@@ -9,7 +9,7 @@
    <http://purl.oclc.org/NET/ssnx/ssn#observationResultTime> "2002-05-30T09:30:10+02:00"^^xsd:dateTime;
    <http://purl.oclc.org/NET/ssnx/ssn#observedProperty> <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#entradaUsuario>;
    dc:identifier "111222333-2002-05-30T09:30:10+02:00";
-   <sss:observedBy> <http://crtm.linkeddata.es/datosabiertos/recurso/transporte/dpaypoint/444555666> .
+   <ssn:observedBy> <http://crtm.linkeddata.es/datosabiertos/recurso/transporte/dpaypoint/444555666> .
 
 <http://crtm.linkeddata.es/datosabiertos/recurso/transporte/resultadoValidacion/111222333-2002-05-30T09:30:10+02:00> a <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjetaTransportePublico#CardValidationSensorOutput>;
    <http://purl.oclc.org/NET/ssnx/ssn#isProducedBy> <http://crtm.linkeddata.es/datosabiertos/recurso/transporte/dpaypoint/444555666>;
