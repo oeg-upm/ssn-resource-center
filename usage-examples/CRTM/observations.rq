@@ -1,0 +1,18 @@
+PREFIX dpay: <http://datos.crtm.es/recurso/transporte/validacion/dpaypoint/>
+PREFIX gsp: <http://www.opengis.net/ont/geosparql#>
+PREFIX ttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#>
+PREFIX validacionInstancia: <http://crtm.linkeddata.es/recurso/transporte/validacion/> 
+PREFIX ssn: <http://purl.oclc.org/NET/ssnx/ssn>
+
+SELECT DISTINCT ?dPayPoint ?time ?obsValue
+FROM NAMED <http://crtm.linkeddata.es/graph/data/validaciones>
+WHERE {
+  GRAPH <http://crtm.linkeddata.es/graph/data/validaciones> { 
+    ?obs a ttp:Validacion . 
+    ?obs ssn:observationResultTime ?time  .
+    ?obs ssn:observedBy ?dPayPoint . 
+    ?obs ssn:observationResult ?sensorOutput .
+    ?sensorOutput ssn:hasValue ?obsValue .
+    FILTER (?time >= "2016-03-08"^^xsd:date && ?time < "2016-03-10"^^xsd:date)
+  }
+} LIMIT 100
