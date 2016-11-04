@@ -1,0 +1,41 @@
+# plantilla dPaypoint
+# 2016-09-13: added triples for CODIGOSUBLINEA
+# 2016-09-15: added triples for SENTIDO and TIPOITINERARIO
+# 2016-09-13: added triples for CODIGOITINERARIO, CODIGOESTACION, NUMEROORDEN, LONGITUDTRAMOANTERIOR, VELOCIDADTRAMOANTERIOR
+# 2016-09-06: modification by acarrera, related to geosparql triples
+# 2016-07-19: modification by Freddy, change tp:tieneLinea to tp:linea
+# 2016-06-10: modification by Freddy
+# 2016-06-09: initial by Luis
+
+@prefix ttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#> . 
+@prefix tp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
+@prefix crtmDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
+@prefix crtmGeometria: <http://crtm.linkeddata.es/recurso/transporte/geometria/> . 
+@prefix crtmOperador: <http://crtm.linkeddata.es/recurso/transporte/operador/> . 
+@prefix crtmZona: <http://crtm.linkeddata.es/recurso/transporte/zona/> . 
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geosf: <http://www.opengis.net/ont/sf#> .
+@prefix schema: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+crtmDpaypoint:[dpaypoint] a ttp:DPayPoint .
+crtmGeometria:[dpaypoint] a geosf:Point .
+crtmGeometria:[dpaypoint] geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT([coordenadaX] [coordenadaY])"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:[dpaypoint] geo:crs "EPSG:4326" .
+crtmDpaypoint:[dpaypoint] geo:hasGeometry crtmGeometria:[dpaypoint] .
+crtmDpaypoint:[dpaypoint] tp:operador crtmOperador:[codigo-operador] .
+crtmOperador:[codigo-operador] rdfs:label "[descripcion-operador]".
+crtmDpaypoint:[dpaypoint] tp:parada crtmOperador:[codigo-parada] .
+crtmOperador:[codigo-parada] rdfs:label "[descripcion-parada]". # es correcto? deberia ser crtmParada:[codigo-operador]_[codigo-linea]_[codigo-parada]
+crtmDpaypoint:[dpaypoint] tp:linea crtmOperador:[codigo-linea] .
+crtmOperador:[codigo-linea] rdfs:label "[descripcion-linea]". # es correcto? deberia ser crtmLinea:[codigo-operador]_[codigo-linea]
+crtmDpaypoint:[dpaypoint] tp:coronaTarifaria crtmZona:[CORONATARIFARIA] .
+crtmDpaypoint:[dpaypoint] tp:municipio crtmZona:[CODIGOMUNICIPIO] .
+crtmDpaypoint:[dpaypoint] schema:postalCode crtmZona:[CODIGOPOSTAL] .
+crtmDpaypoint:[dpaypoint] tp:codigoItinerario "[CODIGOITINERARIO]" . #si podemos hacer URI es mejor
+crtmDpaypoint:[dpaypoint] tp:codigoEstacion "[CODIGOESTACION]" . #si podemos hacer URI es mejor
+crtmDpaypoint:[dpaypoint] tp:numeroOrden "[NUMEROORDEN]" .
+crtmDpaypoint:[dpaypoint] tp:distanciaParadaAnterior "[LONGITUDTRAMOANTERIOR]" .
+crtmDpaypoint:[dpaypoint] tp:velocidadParadaAnterior "[VELOCIDADTRAMOANTERIOR]" .
+crtmDpaypoint:[dpaypoint] tp:sentido "[SENTIDO]" .
+crtmDpaypoint:[dpaypoint] tp:tipoItinerario "[TIPOITINERARIO]" .

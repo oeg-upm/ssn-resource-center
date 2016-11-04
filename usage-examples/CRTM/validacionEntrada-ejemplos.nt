@@ -1,0 +1,174 @@
+# Instancia en base a validacionEntrada-plantilla
+# 2016-06-10: some corrections by Freddy
+# 2016-06-09: initial version by Luis
+
+@prefix tp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
+@prefix ttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn> .
+@prefix ttpHash: <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/> . 
+@prefix ttpResultado: <http://crtm.linkeddata.es/recurso/transporte/validacion/resultado/> . 
+@prefix ttpDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
+@prefix titulo: <http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/> .
+@prefix perfil: <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix validacionValor: <http://crtm.linkeddata.es/recurso/transporte/validacion/valor/> .
+@prefix validacionInstancia: <http://crtm.linkeddata.es/recurso/transporte/validacion/> .
+# NOTA: por el momento, estamos poniendo una constante como tipo de validación: abono 
+
+# Instancia en base a validacionEntrada_v7.plantilla
+
+validacionInstancia:VAL_7AE5EB0B37D99F20BD2A4834E59AB5C6 a ttp:Validacion;
+  rdfs:label "VAL_7AE5EB0B37D99F20BD2A4834E59AB5C6";
+  rdfs:comment "VALIDACION tarjeta 529AA68D459EA0F871DD2CD99CADC796 en 2016-01-01T02:25:50";
+  ssn:featureOfInterest ttpHash:529AA68D459EA0F871DD2CD99CADC796;
+  ssn:observationResult ttpResultado:VAL_7AE5EB0B37D99F20BD2A4834E59AB5C6;
+  ssn:observationResultTime "2016-01-01T02:25:50"^^xsd:dateTime;
+  ssn:observedBy ttpDpaypoint:25_L401_P562;
+  ssn:observedProperty ttp:Entrada .
+
+ttpResultado:VAL_7AE5EB0B37D99F20BD2A4834E59AB5C6 a ttp:ResultadoValidacion;
+  ssn:hasValue validacionValor:VAL_7AE5EB0B37D99F20BD2A4834E59AB5C6;
+  ssn:isProducedBy ttpDpaypoint:25_L401_P562 .
+
+validacionValor:VAL_7AE5EB0B37D99F20BD2A4834E59AB5C6 a ttp:ValorValidacion;
+  ttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
+  ttp:titulo titulo:4181; 
+  ttp:perfil perfil:03 .
+
+ttpDpaypoint:25_L401_P562 a ttp:DPayPoint .
+
+ttp:Entrada a ssn:Property;
+  ssn:isPropertyOf <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico#529AA68D459EA0F871DD2CD99CADC796> .
+
+
+# Instancia en base a validacionEntrada_v7.plantilla
+
+instancia:VAL_DDCE28FCAD49593A19C6B2E25F5ECDCD a ttp:Validacion;
+  rdfs:label "VAL_DDCE28FCAD49593A19C6B2E25F5ECDCD";
+  rdfs:comment "VALIDACION tarjeta 2819824403B3E88CF83B2537560A36B7 en 2016-01-01T20:06:12";
+  ssn:featureOfInterest ttpHash:2819824403B3E88CF83B2537560A36B7;
+  ssn:observationResult ttpResultado:VAL_DDCE28FCAD49593A19C6B2E25F5ECDCD;
+  ssn:observationResultTime "2016-01-01T20:06:12"^^xsd:dateTime;
+  ssn:observedBy ttpDpaypoint:25_L423_P481;
+  ssn:observedProperty ttp:Entrada .
+
+ttpResultado:VAL_DDCE28FCAD49593A19C6B2E25F5ECDCD a ttp:ResultadoValidacion;
+  ssn:hasValue valor:VAL_DDCE28FCAD49593A19C6B2E25F5ECDCD;
+  ssn:isProducedBy ttpDpaypoint:25_L423_P481 .
+
+valor:VAL_DDCE28FCAD49593A19C6B2E25F5ECDCD a ttp:ValorValidacion;
+  ttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
+  ttp:titulo titulo:4102; 
+  ttp:perfil perfil:01 .
+
+ttpDpaypoint:25_L423_P481 a ttp:DPayPoint .
+
+ttp:Entrada a ssn:Property;
+  ssn:isPropertyOf <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico#2819824403B3E88CF83B2537560A36B7> .
+
+
+# Instancia en base a validacionEntrada_v7.plantilla
+
+instancia:VAL_7DFFA90E4B7213BE81972D16ED8740D9 a ttp:Validacion;
+  rdfs:label "VAL_7DFFA90E4B7213BE81972D16ED8740D9";
+  rdfs:comment "VALIDACION tarjeta 35018F30DCE1085EC50D3797CCBBE9E8 en 2016-01-01T17:32:56";
+  ssn:featureOfInterest ttpHash:35018F30DCE1085EC50D3797CCBBE9E8;
+  ssn:observationResult ttpResultado:VAL_7DFFA90E4B7213BE81972D16ED8740D9;
+  ssn:observationResultTime "2016-01-01T17:32:56"^^xsd:dateTime;
+  ssn:observedBy ttpDpaypoint:25_L18_P987;
+  ssn:observedProperty ttp:Entrada .
+
+ttpResultado:VAL_7DFFA90E4B7213BE81972D16ED8740D9 a ttp:ResultadoValidacion;
+  ssn:hasValue valor:VAL_7DFFA90E4B7213BE81972D16ED8740D9;
+  ssn:isProducedBy ttpDpaypoint:25_L18_P987 .
+
+valor:VAL_7DFFA90E4B7213BE81972D16ED8740D9 a ttp:ValorValidacion;
+  ttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
+  ttp:titulo titulo:4104; 
+  ttp:perfil perfil:01 .
+
+ttpDpaypoint:25_L18_P987 a ttp:DPayPoint .
+
+ttp:Entrada a ssn:Property;
+  ssn:isPropertyOf <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico#35018F30DCE1085EC50D3797CCBBE9E8> .
+
+
+# Instancia en base a validacionEntrada_v7.plantilla
+
+instancia:VAL_4A55746058ACA10450CAD6F408C1523F a ttp:Validacion;
+  rdfs:label "VAL_4A55746058ACA10450CAD6F408C1523F";
+  rdfs:comment "VALIDACION tarjeta 8FA7EB9B37885304FFE7D7BFD319FEF7 en 2016-01-01T20:07:14";
+  ssn:featureOfInterest ttpHash:8FA7EB9B37885304FFE7D7BFD319FEF7;
+  ssn:observationResult ttpResultado:VAL_4A55746058ACA10450CAD6F408C1523F;
+  ssn:observationResultTime "2016-01-01T20:07:14"^^xsd:dateTime;
+  ssn:observedBy ttpDpaypoint:25_L423_P475;
+  ssn:observedProperty ttp:Entrada .
+
+ttpResultado:VAL_4A55746058ACA10450CAD6F408C1523F a ttp:ResultadoValidacion;
+  ssn:hasValue valor:VAL_4A55746058ACA10450CAD6F408C1523F;
+  ssn:isProducedBy ttpDpaypoint:25_L423_P475 .
+
+valor:VAL_4A55746058ACA10450CAD6F408C1523F a ttp:ValorValidacion;
+  ttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
+  ttp:titulo titulo:4181; 
+  ttp:perfil perfil:03 .
+
+ttpDpaypoint:25_L423_P475 a ttp:DPayPoint .
+
+ttp:Entrada a ssn:Property;
+  ssn:isPropertyOf <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico#8FA7EB9B37885304FFE7D7BFD319FEF7> .
+
+
+# Instancia en base a validacionEntrada_v7.plantilla
+
+instancia:VAL_C8A4130E41930AF6282C75BFE02B2D7A a ttp:Validacion;
+  rdfs:label "VAL_C8A4130E41930AF6282C75BFE02B2D7A";
+  rdfs:comment "VALIDACION tarjeta 776EF071D20CED0830F00F248C2A5313 en 2016-01-01T17:41:14";
+  ssn:featureOfInterest ttpHash:776EF071D20CED0830F00F248C2A5313;
+  ssn:observationResult ttpResultado:VAL_C8A4130E41930AF6282C75BFE02B2D7A;
+  ssn:observationResultTime "2016-01-01T17:41:14"^^xsd:dateTime;
+  ssn:observedBy ttpDpaypoint:25_L428_P526;
+  ssn:observedProperty ttp:Entrada .
+
+ttpResultado:VAL_C8A4130E41930AF6282C75BFE02B2D7A a ttp:ResultadoValidacion;
+  ssn:hasValue valor:VAL_C8A4130E41930AF6282C75BFE02B2D7A;
+  ssn:isProducedBy ttpDpaypoint:25_L428_P526 .
+
+valor:VAL_C8A4130E41930AF6282C75BFE02B2D7A a ttp:ValorValidacion;
+  ttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
+  ttp:titulo titulo:4099; 
+  ttp:perfil perfil:01 .
+
+ttpDpaypoint:25_L428_P526 a ttp:DPayPoint .
+
+ttp:Entrada a ssn:Property;
+  ssn:isPropertyOf <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico#776EF071D20CED0830F00F248C2A5313> .
+
+
+# Instancia en base a validacionEntrada_v7.plantilla
+
+instancia:VAL_C5F535D3DB9F522E7DAFB9EE66F95A33 a ttp:Validacion;
+  rdfs:label "VAL_C5F535D3DB9F522E7DAFB9EE66F95A33";
+  rdfs:comment "VALIDACION tarjeta 1142C28FFB5376ACB86F26EBBDA43ECA en 2016-01-01T13:54:26";
+  ssn:featureOfInterest ttpHash:1142C28FFB5376ACB86F26EBBDA43ECA;
+  ssn:observationResult ttpResultado:VAL_C5F535D3DB9F522E7DAFB9EE66F95A33;
+  ssn:observationResultTime "2016-01-01T13:54:26"^^xsd:dateTime;
+  ssn:observedBy ttpDpaypoint:25_L421_P513;
+  ssn:observedProperty ttp:Entrada .
+
+ttpResultado:VAL_C5F535D3DB9F522E7DAFB9EE66F95A33 a ttp:ResultadoValidacion;
+  ssn:hasValue valor:VAL_C5F535D3DB9F522E7DAFB9EE66F95A33;
+  ssn:isProducedBy ttpDpaypoint:25_L421_P513 .
+
+valor:VAL_C5F535D3DB9F522E7DAFB9EE66F95A33 a ttp:ValorValidacion;
+  ttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
+  ttp:titulo titulo:4181; 
+  ttp:perfil perfil:03 .
+
+ttpDpaypoint:25_L421_P513 a ttp:DPayPoint .
+
+ttp:Entrada a ssn:Property;
+  ssn:isPropertyOf <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico#1142C28FFB5376ACB86F26EBBDA43ECA> .
+
+
+

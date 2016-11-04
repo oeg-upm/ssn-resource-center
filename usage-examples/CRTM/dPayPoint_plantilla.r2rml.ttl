@@ -1,0 +1,166 @@
+# plantilla dPaypoint
+# 2016-09-13: added triples for CODIGOSUBLINEA
+# 2016-09-15: added triples for SENTIDO and TIPOITINERARIO
+# 2016-09-13: added triples for CODIGOITINERARIO, CODIGOESTACION, NUMEROORDEN, LONGITUDTRAMOANTERIOR, VELOCIDADTRAMOANTERIOR
+# 2016-09-06: modification by acarrera, related to geosparql triples
+# 2016-06-10: modification by Freddy
+# 2016-06-09: initial by Luis
+
+@prefix ttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#> . 
+@prefix tp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
+@prefix crtmDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
+@prefix crtmGeometria: <http://crtm.linkeddata.es/recurso/transporte/geometria/> . 
+@prefix crtmOperador: <http://crtm.linkeddata.es/recurso/transporte/operador/> . 
+@prefix crtmZona: <http://crtm.linkeddata.es/recurso/transporte/zona/> . 
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geosf: <http://www.opengis.net/ont/sf#> .
+@prefix schema: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<#TriplesMapDPayPoint>
+	rr:logicalTable [ rr:tableName "???" ];
+
+	#crtmDpaypoint:25_L401_P376 a ttp:DPayPoint .
+	rr:subjectMap [
+		rr:template "http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/{codigo-operador}_{codigo-linea}_{codigo-parada}";
+		rr:class ttp:DPayPoint;
+	];
+    
+	#crtmDpaypoint:25_L401_P376 geo:hasGeometry crtmGeometria:25_L401_P376 .
+	rr:predicateObjectMap [
+		rr:predicate geo:hasGeometry;
+		rr:objectMap [ rr:template "http://crtm.linkeddata.es/recurso/transporte/geometria/{codigo-operador}_{codigo-linea}_{codigo-parada}" ];
+
+	#crtmDpaypoint:25_L401_P376 tp:operador crtmOperador:25 .
+	rr:predicateObjectMap [
+		rr:predicate tp:operador;
+		rr:objectMap [ rr:template "http://crtm.linkeddata.es/recurso/transporte/operador/{codigo-operador}" ];
+
+	#crtmDpaypoint:25_L401_P376 tp:parada crtmOperador:376 .
+	rr:predicateObjectMap [
+		rr:predicate tp:parada;
+		rr:objectMap [ rr:template "http://crtm.linkeddata.es/recurso/transporte/operador/{codigo-parada}" ];
+
+	#crtmDpaypoint:25_L401_P376 tp:linea crtmOperador:401 .
+	rr:predicateObjectMap [
+		rr:predicate tp:linea;
+		rr:objectMap [ rr:template "http://crtm.linkeddata.es/recurso/transporte/operador/{codigo-linea}" ];
+
+	#crtmDpaypoint:25_L401_P376 tp:coronaTarifaria crtmZona:B2 .
+	rr:predicateObjectMap [
+		rr:predicate tp:coronaTarifaria;
+		rr:objectMap [ rr:template "http://crtm.linkeddata.es/recurso/transporte/zona/{CORONATARIFARIA}" ];
+
+	#crtmDpaypoint:25_L401_P376 tp:municipio crtmZona:28113 .
+	rr:predicateObjectMap [
+		rr:predicate tp:municipio;
+		rr:objectMap [ rr:template "http://crtm.linkeddata.es/recurso/transporte/zona/{CODIGOMUNICIPIO}" ];
+
+	#crtmDpaypoint:25_L401_P376 schema:postalCode crtmZona:28320 .
+	rr:predicateObjectMap [
+		rr:predicate schema:postalCode;
+		rr:objectMap [ rr:template "http://crtm.linkeddata.es/recurso/transporte/zona/{CODIGOPOSTAL}" ];
+
+	rr:predicateObjectMap [
+		rr:predicate tp:codigoItinerario;
+		rr:objectMap [ rr:column "CODIGOITINERARIO" ];
+
+	rr:predicateObjectMap [
+		rr:predicate tp:codigoEstacion;
+		rr:objectMap [ rr:column "CODIGOESTACION" ];
+
+	rr:predicateObjectMap [
+		rr:predicate tp:numeroOrden;
+		rr:objectMap [ rr:column "NUMEROORDEN" ];
+
+	rr:predicateObjectMap [
+		rr:predicate tp:distanciaParadaAnterior;
+		rr:objectMap [ rr:column "LONGITUDTRAMOANTERIOR" ];
+
+	rr:predicateObjectMap [
+		rr:predicate tp:velocidadParadaAnterior;
+		rr:objectMap [ rr:column "VELOCIDADTRAMOANTERIOR" ];
+
+	rr:predicateObjectMap [
+		rr:predicate tp:sentido;
+		rr:objectMap [ rr:column "SENTIDO" ];
+
+	rr:predicateObjectMap [
+		rr:predicate tp:tipoItinerario;
+		rr:objectMap [ rr:column "TIPOITINERARIO" ];
+
+	rr:predicateObjectMap [
+		rr:predicate tp:codigoSublinea;
+		rr:objectMap [ rr:column "CODIGOSUBLINEA" ];
+].
+
+
+<#TriplesMapGeometry>
+	rr:logicalTable [ rr:tableName "???" ];
+
+	#crtmDpaypoint:25_L401_P376 a geosf:Point .
+	rr:subjectMap [
+		rr:template "http://crtm.linkeddata.es/recurso/transporte/geometria/{codigo-operador}_{codigo-linea}_{codigo-parada}";
+		rr:class geosf:Point;
+	];
+
+	#crtmGeometria:25_L401_P376 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.7007793065580 40.2441180098106)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+	rr:predicateObjectMap [
+		rr:predicate geo:asWKT;
+		rr:objectMap [ 
+			rr:template "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT([coordenadaX] [coordenadaY])" ;
+			rr:datatype geo:wktLiteral ;
+	];
+
+	#crtmGeometria:25_L401_P376 geo:crs "EPSG:4326" .
+	rr:predicateObjectMap [
+		rr:predicate geo:crs;
+		rr:objectMap [ rr:constant "EPSG:4326" ];
+].
+
+<#TriplesMapOperador>
+	rr:logicalTable [ rr:tableName "???" ];
+
+	#crtmOperador:25 a tp:Operador. 
+	rr:subjectMap [
+		rr:template "http://crtm.linkeddata.es/recurso/transporte/operador/{codigo-operador}";
+		rr:class tp:Operador;
+	];
+
+	#crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [ rr:column "descripcion-operador" ];
+].
+
+<#TriplesMapLinea>
+	rr:logicalTable [ rr:tableName "???" ];
+
+	#deberia ser crtmLinea:25_L401 a tp:Linea.
+	rr:subjectMap [
+		rr:template "http://crtm.linkeddata.es/recurso/transporte/operador/{codigo-linea}"; # es correcto? deberia ser crtmLinea:[codigo-operador]_[codigo-linea]
+		# rr:class tp:Linea;
+	];
+
+	# lo que hay ahora: crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+	# deberia ser crtmLinea:25_401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [ rr:column "descripcion-linea" ];
+].
+
+<#TriplesMapParada>
+	rr:logicalTable [ rr:tableName "???" ];
+
+	#deberia ser crtmParada:25_L401_P376 a tp:Parada
+	rr:subjectMap [
+		rr:template "http://crtm.linkeddata.es/recurso/transporte/operador/{codigo-parada}"; # es correcto? deberia ser crtmParada:[codigo-operador]_[codigo-linea]_[codigo-parada]
+		# rr:class tp:Parada;
+	];
+
+	#lo que hay ahora: crtmOperador:376 rdfs:label "PZA.JAIME MERIC-CRISTO".
+	#deberia ser crtmParada:25_L401_P376 rdfs:label "PZA.JAIME MERIC-CRISTO".
+	rr:predicateObjectMap [
+		rr:predicate rdfs:label;
+		rr:objectMap [ rr:column "descripcion-parada" ];
+].

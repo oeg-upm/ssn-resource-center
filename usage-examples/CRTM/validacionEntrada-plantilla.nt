@@ -1,0 +1,40 @@
+# plantilla de validación
+# 2016-06-10: some corrections by Freddy
+# 2016-06-09: initial version by Luis
+
+@prefix tp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
+@prefix ttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn> .
+@prefix ttpHash: <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/> . 
+@prefix ttpResultado: <http://crtm.linkeddata.es/recurso/transporte/validacion/resultado/> . 
+@prefix ttpDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
+@prefix titulo: <http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/> .
+@prefix perfil: <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix validacionValor: <http://crtm.linkeddata.es/recurso/transporte/validacion/valor/> .
+@prefix validacionInstancia: <http://crtm.linkeddata.es/recurso/transporte/validacion/> .
+# NOTA: por el momento, estamos poniendo una constante como tipo de validación: abono 
+
+
+validacionInstancia:[nombre_instancia] a ttp:Validacion;
+  rdfs:label "[nombre_instancia]";
+  rdfs:comment "VALIDACION tarjeta [serie_md5] en [fecha_hora_validacion]";
+  ssn:featureOfInterest ttpHash:[serie_md5];
+  ssn:observationResult ttpResultado:[nombre_instancia];
+  ssn:observationResultTime "[fecha_hora_validacion]"^^xsd:dateTime;
+  ssn:observedBy ttpDpaypoint:[dpaypoint];
+  ssn:observedProperty ttp:Entrada .
+
+ttpResultado:[nombre_instancia] a ttp:ResultadoValidacion;
+  ssn:hasValue validacionValor:[nombre_instancia];
+  ssn:isProducedBy ttpDpaypoint:[dpaypoint] .
+
+validacionValor:[nombre_instancia] a ttp:ValorValidacion;
+  ttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
+  ttp:titulo titulo:[codigo_titulo]; 
+  ttp:perfil perfil:[codigo_perfil] .
+
+ttpDpaypoint:[dpaypoint] a ttp:DPayPoint .
+
+ttp:Entrada a ssn:Property;
+  ssn:isPropertyOf <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico#[serie_md5]> .

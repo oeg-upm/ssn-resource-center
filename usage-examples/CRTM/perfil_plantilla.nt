@@ -1,0 +1,11 @@
+<http://crtm.linkeddata.es/kos/transporte/perfil> rdf:type skos:ConceptScheme .
+<http://crtm.linkeddata.es/kos/transporte/perfil> dct:title "Esquema de códigos para representar perfiles de la tarjeta de transporte público" .
+
+
+# plantilla de Instancia de Perfil
+# instancia [codigo-perfil]
+<http://datos.crtm.es/kos/transporte/perfil/[codigo-perfil]> a skos:Concept .
+<http://datos.crtm.es/kos/transporte/perfil/[codigo-perfil]> skos:inScheme crtm:perfil .
+<http://datos.crtm.es/kos/transporte/perfil/[codigo-perfil]> dct:title "??" .
+<http://datos.crtm.es/kos/transporte/perfil/[codigo-perfil]> skos:prefLabel "??"@es .
+<http://datos.crtm.es/kos/transporte/perfil/[codigo-perfil]> skos:prefLabel "??"@en .

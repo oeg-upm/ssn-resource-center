@@ -1,0 +1,194 @@
+# Instancias en base a dPayPoint_plantilla
+# 2016-07-19: modification by Freddy, change tp:tieneLinea to tp:linea
+# 2016-06-10: modification by Freddy
+# 2016-06-09: initial by Luis
+
+@prefix ttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#> . 
+@prefix tp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
+@prefix crtmDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
+@prefix crtmGeometria: <http://crtm.linkeddata.es/recurso/transporte/geometria/> . 
+@prefix crtmOperador: <http://crtm.linkeddata.es/recurso/transporte/operador/> . 
+@prefix crtmZona: <http://crtm.linkeddata.es/recurso/transporte/zona/> . 
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geosf: <http://www.opengis.net/ont/sf#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+# Instancia en base a dPayPoint_plantilla
+crtmDpaypoint:25_L401_P376 a ttp:DPayPoint .
+crtmDpaypoint:25_L401_P376 a geosf:Point .
+crtmGeometria:25_L401_P376 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.7007793065580 40.2441180098106)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:25_L401_P376 geo:crs "EPSG:4326" .
+crtmDpaypoint:25_L401_P376 geo:hasGeometry crtmGeometria:25_L401_P376 .
+crtmDpaypoint:25_L401_P376 tp:operador crtmOperador:25 .
+crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+crtmDpaypoint:25_L401_P376 tp:parada crtmOperador:376 .
+crtmOperador:376 rdfs:label "PZA.JAIME MERIC-CRISTO".
+crtmDpaypoint:25_L401_P376 tp:linea crtmOperador:401 .
+crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+crtmDpaypoint:25_L401_P376 tp:coronaTarifaria crtmZona:B2 .
+crtmDpaypoint:25_L401_P376 tp:municipio crtmZona:28113 .
+crtmDpaypoint:25_L401_P376 schema:postalCode crtmZona:28320 .
+
+
+
+# Instancia en base a dPayPoint_plantilla
+crtmDpaypoint:25_L401_P387 a ttp:DPayPoint .
+crtmGeometria:25_L401_P387 a geosf:Point .
+crtmGeometria:25_L401_P387 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.6809125509154 40.2126768884566)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:25_L401_P387 geo:crs "EPSG:4326" .
+crtmDpaypoint:25_L401_P387 geo:hasGeometry crtmGeometria:25_L401_P387 .
+crtmDpaypoint:25_L401_P387 tp:operador crtmOperador:25 .
+crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+crtmDpaypoint:25_L401_P387 tp:parada crtmOperador:387 .
+crtmOperador:387 rdfs:label "AV.ANDALUCÍA-POL.IND.ALVENA".
+crtmDpaypoint:25_L401_P387 tp:linea crtmOperador:401 .
+crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+crtmDpaypoint:25_L401_P387 tp:coronaTarifaria crtmZona:B3 .
+crtmDpaypoint:25_L401_P387 tp:municipio crtmZona:28161 .
+crtmDpaypoint:25_L401_P387 schema:postalCode crtmZona:28342 .
+
+
+
+# Instancia en base a dPayPoint_plantilla
+crtmDpaypoint:25_L401_P388 a ttp:DPayPoint .
+crtmGeometria:25_L401_P388 a geosf:Point .
+crtmGeometria:25_L401_P388 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.6801249744901 40.2126544906940)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:25_L401_P388 geo:crs "EPSG:4326" .
+crtmDpaypoint:25_L401_P388 geo:hasGeometry crtmGeometria:25_L401_P388 .
+crtmDpaypoint:25_L401_P388 tp:operador crtmOperador:25 .
+crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+crtmDpaypoint:25_L401_P388 tp:parada crtmOperador:388 .
+crtmOperador:388 rdfs:label "AV.ANDALUCÍA-POL.IND.ALVENA".
+crtmDpaypoint:25_L401_P388 tp:linea crtmOperador:401 .
+crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+crtmDpaypoint:25_L401_P388 tp:coronaTarifaria crtmZona:B3 .
+crtmDpaypoint:25_L401_P388 tp:municipio crtmZona:28161 .
+crtmDpaypoint:25_L401_P388 schema:postalCode crtmZona:28340 .
+
+
+
+# Instancia en base a dPayPoint_plantilla
+crtmDpaypoint:25_L401_P389 a ttp:DPayPoint .
+crtmGeometria:25_L401_P389 a geosf:Point .
+crtmGeometria:25_L401_P389 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.6774357382444 40.2057600739079)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:25_L401_P389 geo:crs "EPSG:4326" .
+crtmDpaypoint:25_L401_P389 geo:hasGeometry crtmGeometria:25_L401_P389 .
+crtmDpaypoint:25_L401_P389 tp:operador crtmOperador:25 .
+crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+crtmDpaypoint:25_L401_P389 tp:parada crtmOperador:389 .
+crtmOperador:389 rdfs:label "AV.ANDALUCÍA-RESIDENCIA".
+crtmDpaypoint:25_L401_P389 tp:linea crtmOperador:401 .
+crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+crtmDpaypoint:25_L401_P389 tp:coronaTarifaria crtmZona:B3 .
+crtmDpaypoint:25_L401_P389 tp:municipio crtmZona:28161 .
+crtmDpaypoint:25_L401_P389 schema:postalCode crtmZona:28343 .
+
+
+
+# Instancia en base a dPayPoint_plantilla
+crtmDpaypoint:25_L401_P390 a ttp:DPayPoint .
+crtmGeometria:25_L401_P390 a geosf:Point .
+crtmGeometria:25_L401_P390 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.6752504867184 40.1951327591061)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:25_L401_P390 geo:crs "EPSG:4326" .
+crtmDpaypoint:25_L401_P390 geo:hasGeometry crtmGeometria:25_L401_P390 .
+crtmDpaypoint:25_L401_P390 tp:operador crtmOperador:25 .
+crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+crtmDpaypoint:25_L401_P390 tp:parada crtmOperador:390 .
+crtmOperador:390 rdfs:label "SAN VICENTE DE PAÚL-DOCTOR FLEMING".
+crtmDpaypoint:25_L401_P390 tp:linea crtmOperador:401 .
+crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+crtmDpaypoint:25_L401_P390 tp:coronaTarifaria crtmZona:B3 .
+crtmDpaypoint:25_L401_P390 tp:municipio crtmZona:28161 .
+crtmDpaypoint:25_L401_P390 schema:postalCode crtmZona:28340 .
+
+
+
+# Instancia en base a dPayPoint_plantilla
+crtmDpaypoint:25_L401_P391 a ttp:DPayPoint .
+crtmGeometria:25_L401_P391 a geosf:Point .
+crtmGeometria:25_L401_P391 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.6787810103702 40.1945535290555)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:25_L401_P391 geo:crs "EPSG:4326" .
+crtmDpaypoint:25_L401_P391 geo:hasGeometry crtmGeometria:25_L401_P391 .
+crtmDpaypoint:25_L401_P391 tp:operador crtmOperador:25 .
+crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+crtmDpaypoint:25_L401_P391 tp:parada crtmOperador:391 .
+crtmOperador:391 rdfs:label "SAN VICENTE DE PAÚL-TENERIAS".
+crtmDpaypoint:25_L401_P391 tp:linea crtmOperador:401 .
+crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+crtmDpaypoint:25_L401_P391 tp:coronaTarifaria crtmZona:B3 .
+crtmDpaypoint:25_L401_P391 tp:municipio crtmZona:28161 .
+crtmDpaypoint:25_L401_P391 schema:postalCode crtmZona:28340 .
+
+
+
+# Instancia en base a dPayPoint_plantilla
+crtmDpaypoint:25_L401_P392 a ttp:DPayPoint .
+crtmGeometria:25_L401_P392 a geosf:Point .
+crtmGeometria:25_L401_P392 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.6816603026694 40.1934735019770)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:25_L401_P392 geo:crs "EPSG:4326" .
+crtmDpaypoint:25_L401_P392 geo:hasGeometry crtmGeometria:25_L401_P392 .
+crtmDpaypoint:25_L401_P392 tp:operador crtmOperador:25 .
+crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+crtmDpaypoint:25_L401_P392 tp:parada crtmOperador:392 .
+crtmOperador:392 rdfs:label "NEGRITAS-RÍO GUADALQUIVIR".
+crtmDpaypoint:25_L401_P392 tp:linea crtmOperador:401 .
+crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+crtmDpaypoint:25_L401_P392 tp:coronaTarifaria crtmZona:B3 .
+crtmDpaypoint:25_L401_P392 tp:municipio crtmZona:28161 .
+crtmDpaypoint:25_L401_P392 schema:postalCode crtmZona:28340 .
+
+
+
+# Instancia en base a dPayPoint_plantilla
+crtmDpaypoint:25_L401_P393 a ttp:DPayPoint .
+crtmGeometria:25_L401_P393 a geosf:Point .
+crtmGeometria:25_L401_P393 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.6834109727521 40.1958326498327)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:25_L401_P393 geo:crs "EPSG:4326" .
+crtmDpaypoint:25_L401_P393 geo:hasGeometry crtmGeometria:25_L401_P393 .
+crtmDpaypoint:25_L401_P393 tp:operador crtmOperador:25 .
+crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+crtmDpaypoint:25_L401_P393 tp:parada crtmOperador:393 .
+crtmOperador:393 rdfs:label "RÍO MANZANARES-PLAZA DE TOROS".
+crtmDpaypoint:25_L401_P393 tp:linea crtmOperador:401 .
+crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+crtmDpaypoint:25_L401_P393 tp:coronaTarifaria crtmZona:B3 .
+crtmDpaypoint:25_L401_P393 tp:municipio crtmZona:28161 .
+crtmDpaypoint:25_L401_P393 schema:postalCode crtmZona:28342 .
+
+
+
+# Instancia en base a dPayPoint_plantilla
+crtmDpaypoint:25_L401_P403 a ttp:DPayPoint .
+crtmGeometria:25_L401_P403 a geosf:Point .
+crtmGeometria:25_L401_P403 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.6983504865763 40.2411596186926)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:25_L401_P403 geo:crs "EPSG:4326" .
+crtmDpaypoint:25_L401_P403 geo:hasGeometry crtmGeometria:25_L401_P403 .
+crtmDpaypoint:25_L401_P403 tp:operador crtmOperador:25 .
+crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+crtmDpaypoint:25_L401_P403 tp:parada crtmOperador:403 .
+crtmOperador:403 rdfs:label "AV.ESPAÑA-JOAN MIRÓ".
+crtmDpaypoint:25_L401_P403 tp:linea crtmOperador:401 .
+crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+crtmDpaypoint:25_L401_P403 tp:coronaTarifaria crtmZona:B2 .
+crtmDpaypoint:25_L401_P403 tp:municipio crtmZona:28113 .
+crtmDpaypoint:25_L401_P403 schema:postalCode crtmZona:28320 .
+
+
+
+# Instancia en base a dPayPoint_plantilla
+crtmDpaypoint:25_L401_P404 a ttp:DPayPoint .
+crtmGeometria:25_L401_P404 a geosf:Point .
+crtmGeometria:25_L401_P404 geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-3.6977662447260 40.2380729469560)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+crtmGeometria:25_L401_P404 geo:crs "EPSG:4326" .
+crtmDpaypoint:25_L401_P404 geo:hasGeometry crtmGeometria:25_L401_P404 .
+crtmDpaypoint:25_L401_P404 tp:operador crtmOperador:25 .
+crtmOperador:25 rdfs:label "Autómnibus Interurbanos S.A.".
+crtmDpaypoint:25_L401_P404 tp:parada crtmOperador:404 .
+crtmOperador:404 rdfs:label "SUR-POLIDEPORTIVO".
+crtmDpaypoint:25_L401_P404 tp:linea crtmOperador:401 .
+crtmOperador:401 rdfs:label "MADRID (Atocha)-PINTO-VALDEMORO".
+crtmDpaypoint:25_L401_P404 tp:coronaTarifaria crtmZona:B2 .
+crtmDpaypoint:25_L401_P404 tp:municipio crtmZona:28113 .
+crtmDpaypoint:25_L401_P404 schema:postalCode crtmZona:28320 .
