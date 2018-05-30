@@ -30,14 +30,14 @@ validacionInstancia:[nombre_instancia] a esttp:Validacion;
   sosa:madeBySensor ttpDpaypoint:[dpaypoint];
   sosa:observedProperty esttp:Entrada .
 
-#ttp:ValorValidacion rdfs:subClassOf sosa:Result.
+#esttp:ValorValidacion rdfs:subClassOf sosa:Result.
 validacionValor:[nombre_instancia] a esttp:ValorValidacion;
   esttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
   esttp:titulo titulo:[codigo_titulo]; 
   esttp:perfil perfil:[codigo_perfil] .
 
-#ttp:DPayPoint rdfs:subClassOf sosa:Sensor.
+#esttp:DPayPoint rdfs:subClassOf sosa:Sensor.
 ttpDpaypoint:[dpaypoint] a esttp:DPayPoint .
 
-ttp:Entrada a sosa:ObservableProperty;
+esttp:Entrada a sosa:ObservableProperty;
   ssn:isPropertyOf <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico#[serie_md5]> .
