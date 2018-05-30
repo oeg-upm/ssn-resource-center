@@ -1,10 +1,14 @@
 # plantilla de validación
+# 2018-05-30: updated prefixes estp and esttp and their uris 
+# 2017-10-27: update using the SSN W3C Recommendation 19 October 2017
 # 2016-06-10: some corrections by Freddy
 # 2016-06-09: initial version by Luis
 
-@prefix tp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
-@prefix ttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#> .
-@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn> .
+@prefix estp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
+@prefix esttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#> .
+@prefix ssnOld: <http://purl.oclc.org/NET/ssnx/ssn> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix ttpHash: <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/> . 
 @prefix ttpResultado: <http://crtm.linkeddata.es/recurso/transporte/validacion/resultado/> . 
 @prefix ttpDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
@@ -16,25 +20,24 @@
 # NOTA: por el momento, estamos poniendo una constante como tipo de validación: abono 
 
 
-validacionInstancia:[nombre_instancia] a ttp:Validacion;
+#esttp:Validacion rdfs:subClassOf sosa:Observation.
+validacionInstancia:[nombre_instancia] a esttp:Validacion;
   rdfs:label "[nombre_instancia]";
   rdfs:comment "VALIDACION tarjeta [serie_md5] en [fecha_hora_validacion]";
-  ssn:featureOfInterest ttpHash:[serie_md5];
-  ssn:observationResult ttpResultado:[nombre_instancia];
-  ssn:observationResultTime "[fecha_hora_validacion]"^^xsd:dateTime;
-  ssn:observedBy ttpDpaypoint:[dpaypoint];
-  ssn:observedProperty ttp:Entrada .
+  sosa:hasFeatureOfInterest ttpHash:[serie_md5];
+  sosa:hasResult validacionValor:[nombre_instancia];
+  sosa:resultTime "[fecha_hora_validacion]"^^xsd:dateTime;
+  sosa:madeBySensor ttpDpaypoint:[dpaypoint];
+  sosa:observedProperty esttp:Entrada .
 
-ttpResultado:[nombre_instancia] a ttp:ResultadoValidacion;
-  ssn:hasValue validacionValor:[nombre_instancia];
-  ssn:isProducedBy ttpDpaypoint:[dpaypoint] .
+#ttp:ValorValidacion rdfs:subClassOf sosa:Result.
+validacionValor:[nombre_instancia] a esttp:ValorValidacion;
+  esttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
+  esttp:titulo titulo:[codigo_titulo]; 
+  esttp:perfil perfil:[codigo_perfil] .
 
-validacionValor:[nombre_instancia] a ttp:ValorValidacion;
-  ttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
-  ttp:titulo titulo:[codigo_titulo]; 
-  ttp:perfil perfil:[codigo_perfil] .
+#ttp:DPayPoint rdfs:subClassOf sosa:Sensor.
+ttpDpaypoint:[dpaypoint] a esttp:DPayPoint .
 
-ttpDpaypoint:[dpaypoint] a ttp:DPayPoint .
-
-ttp:Entrada a ssn:Property;
+ttp:Entrada a sosa:ObservableProperty;
   ssn:isPropertyOf <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico#[serie_md5]> .

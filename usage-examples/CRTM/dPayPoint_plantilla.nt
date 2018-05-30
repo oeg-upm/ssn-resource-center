@@ -1,4 +1,7 @@
 # plantilla dPaypoint
+# 2018-05-30: updated prefixes estp and esttp and their uris 
+# 2017-10-27: fixes the generation of URI for tp:Linea, tp:Parada, coronoTarifa and crtmMunicipio
+# 2017-10-27: grouping triples by type
 # 2016-09-13: added triples for CODIGOSUBLINEA
 # 2016-09-15: added triples for SENTIDO and TIPOITINERARIO
 # 2016-09-13: added triples for CODIGOITINERARIO, CODIGOESTACION, NUMEROORDEN, LONGITUDTRAMOANTERIOR, VELOCIDADTRAMOANTERIOR
@@ -7,35 +10,49 @@
 # 2016-06-10: modification by Freddy
 # 2016-06-09: initial by Luis
 
-@prefix ttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#> . 
-@prefix tp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
+@prefix esttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#> . 
+@prefix estp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
 @prefix crtmDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
 @prefix crtmGeometria: <http://crtm.linkeddata.es/recurso/transporte/geometria/> . 
 @prefix crtmOperador: <http://crtm.linkeddata.es/recurso/transporte/operador/> . 
-@prefix crtmZona: <http://crtm.linkeddata.es/recurso/transporte/zona/> . 
+@prefix crtmLinea: <http://crtm.linkeddata.es/recurso/transporte/linea/> . 
+@prefix crtmParada: <http://crtm.linkeddata.es/recurso/transporte/parada/> . 
+@prefix crtmZona: <http://crtm.linkeddata.es/recurso/transporte/zona/> .
+@prefix crtmCoronoTarifa: <http://crtm.linkeddata.es/recurso/transporte/coronaTarifa/> .
+@prefix crtmMunicipio: <http://crtm.linkeddata.es/recurso/transporte/municipio/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix geosf: <http://www.opengis.net/ont/sf#> .
 @prefix schema: <https://schema.org/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
 
-crtmDpaypoint:[dpaypoint] a ttp:DPayPoint .
+# esttp:DPayPoint rdfs:subClassOf sosa:Sensor .
+crtmDpaypoint:[dpaypoint] a esttp:DPayPoint .
+crtmDpaypoint:[dpaypoint] geo:hasGeometry crtmGeometria:[dpaypoint] .
+crtmDpaypoint:[dpaypoint] estp:operador crtmOperador:[codigo-operador] .
+crtmDpaypoint:[dpaypoint] estp:linea crtmLinea:[codigo-operador]_[codigo-linea] .
+crtmDpaypoint:[dpaypoint] estp:parada crtmParada:[codigo-operador]_[codigo-linea]_[codigo-parada] .
+crtmDpaypoint:[dpaypoint] estp:coronaTarifaria crtmCoronoTarifa:[CORONATARIFARIA] . #o Literal?
+crtmDpaypoint:[dpaypoint] estp:municipio crtmMunicipio:[CODIGOMUNICIPIO] .  #o Literal?
+crtmDpaypoint:[dpaypoint] schema:postalCode "[CODIGOPOSTAL]".
+crtmDpaypoint:[dpaypoint] estp:codigoItinerario "[CODIGOITINERARIO]" . #si podemos hacer URI es mejor
+crtmDpaypoint:[dpaypoint] estp:codigoEstacion "[CODIGOESTACION]" . #si podemos hacer URI es mejor
+crtmDpaypoint:[dpaypoint] estp:numeroOrden "[NUMEROORDEN]" .
+crtmDpaypoint:[dpaypoint] estp:distanciaParadaAnterior "[LONGITUDTRAMOANTERIOR]" .
+crtmDpaypoint:[dpaypoint] estp:velocidadParadaAnterior "[VELOCIDADTRAMOANTERIOR]" .
+crtmDpaypoint:[dpaypoint] estp:sentido "[SENTIDO]" .
+crtmDpaypoint:[dpaypoint] estp:tipoItinerario "[TIPOITINERARIO]" .
+
 crtmGeometria:[dpaypoint] a geosf:Point .
 crtmGeometria:[dpaypoint] geo:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT([coordenadaX] [coordenadaY])"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 crtmGeometria:[dpaypoint] geo:crs "EPSG:4326" .
-crtmDpaypoint:[dpaypoint] geo:hasGeometry crtmGeometria:[dpaypoint] .
-crtmDpaypoint:[dpaypoint] tp:operador crtmOperador:[codigo-operador] .
-crtmOperador:[codigo-operador] rdfs:label "[descripcion-operador]".
-crtmDpaypoint:[dpaypoint] tp:parada crtmOperador:[codigo-parada] .
-crtmOperador:[codigo-parada] rdfs:label "[descripcion-parada]". # es correcto? deberia ser crtmParada:[codigo-operador]_[codigo-linea]_[codigo-parada]
-crtmDpaypoint:[dpaypoint] tp:linea crtmOperador:[codigo-linea] .
-crtmOperador:[codigo-linea] rdfs:label "[descripcion-linea]". # es correcto? deberia ser crtmLinea:[codigo-operador]_[codigo-linea]
-crtmDpaypoint:[dpaypoint] tp:coronaTarifaria crtmZona:[CORONATARIFARIA] .
-crtmDpaypoint:[dpaypoint] tp:municipio crtmZona:[CODIGOMUNICIPIO] .
-crtmDpaypoint:[dpaypoint] schema:postalCode crtmZona:[CODIGOPOSTAL] .
-crtmDpaypoint:[dpaypoint] tp:codigoItinerario "[CODIGOITINERARIO]" . #si podemos hacer URI es mejor
-crtmDpaypoint:[dpaypoint] tp:codigoEstacion "[CODIGOESTACION]" . #si podemos hacer URI es mejor
-crtmDpaypoint:[dpaypoint] tp:numeroOrden "[NUMEROORDEN]" .
-crtmDpaypoint:[dpaypoint] tp:distanciaParadaAnterior "[LONGITUDTRAMOANTERIOR]" .
-crtmDpaypoint:[dpaypoint] tp:velocidadParadaAnterior "[VELOCIDADTRAMOANTERIOR]" .
-crtmDpaypoint:[dpaypoint] tp:sentido "[SENTIDO]" .
-crtmDpaypoint:[dpaypoint] tp:tipoItinerario "[TIPOITINERARIO]" .
+
+crtmOperador:[codigo-operador] a estp:Operador .
+crtmOperador:[codigo-operador] rdfs:label "[descripcion-operador]" .
+
+crtmLinea:[codigo-operador]_[codigo-linea] a estp:Linea .
+crtmLinea:[codigo-operador]_[codigo-linea] rdfs:label "[descripcion-linea]" .
+
+crtmParada:[codigo-operador]_[codigo-linea]_[codigo-parada] a estp:Parada .
+crtmParada:[codigo-operador]_[codigo-linea]_[codigo-parada] rdfs:label "[descripcion-parada]" .
