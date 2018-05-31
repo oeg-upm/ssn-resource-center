@@ -1,4 +1,5 @@
 # plantilla de validación
+# 2018-05-31: changed value generation of esttp:tipoValidacion property
 # 2018-05-30: updated prefixes estp and esttp and their uris 
 # 2017-10-27: update using the SSN W3C Recommendation 19 October 2017
 # 2016-06-10: some corrections by Freddy
@@ -32,7 +33,7 @@ validacionInstancia:[nombre_instancia] a esttp:Validacion;
 
 #esttp:ValorValidacion rdfs:subClassOf sosa:Result.
 validacionValor:[nombre_instancia] a esttp:ValorValidacion;
-  esttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono>;
+  esttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/[tipo_titulo]>;
   esttp:titulo titulo:[codigo_titulo]; 
   esttp:perfil perfil:[codigo_perfil] .
 
