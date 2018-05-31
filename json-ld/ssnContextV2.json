@@ -1,0 +1,32 @@
+{
+    "@context": {
+        "ssn": "http://www.w3.org/ns/ssn/",
+		"sosa": "http://www.w3.org/ns/sosa/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "org": "http://www.w3.org/ns/org#",
+        "s": "http://schema.org/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "ssn:observationResult": {
+            "@type": "@id"
+        },
+        "sosa:madeBySensor": {
+            "@type": "@id"
+        },
+        "sosa:hasResult": {
+            "@type": "@id"
+        },
+        "sosa:observedProperty": {
+            "@type": "@id"
+        },
+        "ssn:isPropertyOf": {
+            "@type": "@id"
+        },
+        "sosa:hasFeatureOfInterest": {
+            "@type": "@id"
+        },
+        "sosa:resultTime": {
+            "@type": "xsd:dateTime"
+        }
+    }
+}

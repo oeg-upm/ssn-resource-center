@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "estp": "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#",
+        "esttp": "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#",
+        "crtm": "http://crtm.linkeddata.es/datosabiertos/recurso/transporte/",
+		"ttpHash": "http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/",
+		"ttpResultado": "http://crtm.linkeddata.es/recurso/transporte/validacion/resultado/",
+		"ttpDpaypoint": "http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/",
+		"titulo": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/",
+		"perfil": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"validacionValor": "http://crtm.linkeddata.es/recurso/transporte/validacion/valor/",
+		"validacionInstancia": "http://crtm.linkeddata.es/recurso/transporte/validacion/"
+    }
+}

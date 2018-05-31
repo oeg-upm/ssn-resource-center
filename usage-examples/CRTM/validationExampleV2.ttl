@@ -1,0 +1,34 @@
+<http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/0421BAF79E2B05C7CA3E39BEE4837E1A>
+        a       <estrnttp:TarjetaTransporte> .
+
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#Entrada>
+        a       <http://www.w3.org/ns/sosa/ObservableProperty> ;
+        <http://www.w3.org/ns/ssn/isPropertyOf>
+                <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/0421BAF79E2B05C7CA3E39BEE4837E1A> .
+
+<http://crtm.linkeddata.es/recurso/transporte/validacion/VAL_CF446342E9FD3D2FB6F16003EF28A3FD>
+        a       <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#Validacion> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "VALIDACION tarjeta 0421BAF79E2B05C7CA3E39BEE4837E1A en 2016-07-01T14:29:58"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.w3.org/ns/sosa/hasFeatureOfInterest>
+                <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/0421BAF79E2B05C7CA3E39BEE4837E1A> ;
+        <http://www.w3.org/ns/sosa/hasResult>
+                <http://crtm.linkeddata.es/recurso/transporte/validacion/valor/VAL_CF446342E9FD3D2FB6F16003EF28A3FD> ;
+        <http://www.w3.org/ns/sosa/madeBySensor>
+                <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/02_L7_P21> ;
+        <http://www.w3.org/ns/sosa/observedProperty>
+                <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#Entrada> ;
+        <http://www.w3.org/ns/sosa/resultTime>
+                "2016-07-01T14:29:58"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/02_L7_P21>
+        a       <estrnttp:CardValidationSensor> .
+
+<http://crtm.linkeddata.es/recurso/transporte/validacion/valor/VAL_CF446342E9FD3D2FB6F16003EF28A3FD>
+        a       <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#ValorValidacion> ;
+        <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#perfil>
+                "perfil:01"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#tipoValidacion>
+                "http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#titulo>
+                "titulo:4107"^^<http://www.w3.org/2001/XMLSchema#string> .
