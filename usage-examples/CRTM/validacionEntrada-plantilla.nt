@@ -22,7 +22,7 @@
 
 
 #esttp:Validacion rdfs:subClassOf sosa:Observation.
-validacionInstancia:[nombre_instancia] a esttp:Validacion;
+validacionInstancia:[nombre_instancia] a esttp:CardValidation;
   rdfs:label "[nombre_instancia]";
   rdfs:comment "VALIDACION tarjeta [serie_md5] en [fecha_hora_validacion]";
   sosa:hasFeatureOfInterest ttpHash:[serie_md5];
@@ -32,7 +32,7 @@ validacionInstancia:[nombre_instancia] a esttp:Validacion;
   sosa:observedProperty esttp:Entrada .
 
 #esttp:ValorValidacion rdfs:subClassOf sosa:Result.
-validacionValor:[nombre_instancia] a esttp:ValorValidacion;
+validacionValor:[nombre_instancia] a esttp:CardValidationResult;
   esttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/[tipo_titulo]>;
   esttp:titulo titulo:[codigo_titulo]; 
   esttp:perfil perfil:[codigo_perfil] .

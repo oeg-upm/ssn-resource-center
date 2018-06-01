@@ -1,5 +1,5 @@
 <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/0421BAF79E2B05C7CA3E39BEE4837E1A>
-        a       <estrnttp:TarjetaTransporte> .
+        a       <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#TarjetaTransporte> .
 
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#Entrada>
         a       <http://www.w3.org/ns/sosa/ObservableProperty> ;
@@ -7,7 +7,7 @@
                 <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/0421BAF79E2B05C7CA3E39BEE4837E1A> .
 
 <http://crtm.linkeddata.es/recurso/transporte/validacion/VAL_CF446342E9FD3D2FB6F16003EF28A3FD>
-        a       <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#Validacion> ;
+        a       <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#CardValidation> ;
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "VALIDACION tarjeta 0421BAF79E2B05C7CA3E39BEE4837E1A en 2016-07-01T14:29:58"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://www.w3.org/ns/sosa/hasFeatureOfInterest>
@@ -22,10 +22,10 @@
                 "2016-07-01T14:29:58"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/02_L7_P21>
-        a       <estrnttp:CardValidationSensor> .
+        a       <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#CardValidationSensor> .
 
 <http://crtm.linkeddata.es/recurso/transporte/validacion/valor/VAL_CF446342E9FD3D2FB6F16003EF28A3FD>
-        a       <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#ValorValidacion> ;
+        a       <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#CardValidationResult> ;
         <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#perfil>
                 "perfil:01"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#tipoValidacion>

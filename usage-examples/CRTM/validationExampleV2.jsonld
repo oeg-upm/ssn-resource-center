@@ -41,7 +41,7 @@
 		"validacionInstancia": "http://crtm.linkeddata.es/recurso/transporte/validacion/"
     },  
   	"@id": "validacionInstancia:VAL_CF446342E9FD3D2FB6F16003EF28A3FD",
-    "@type": "esttp:Validacion",
+    "@type": "esttp:CardValidation",
     "rdfs:comment": "VALIDACION tarjeta 0421BAF79E2B05C7CA3E39BEE4837E1A en 2016-07-01T14:29:58",
     "sosa:madeBySensor": {
         "@id":"ttpDpaypoint:02_L7_P21",
@@ -59,7 +59,7 @@
     },
     "sosa:hasResult": {
         "@id": "validacionValor:VAL_CF446342E9FD3D2FB6F16003EF28A3FD",
-        "@type": "esttp:ValorValidacion",
+        "@type": "esttp:CardValidationResult",
         "esttp:tipoValidacion": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono",
         "esttp:titulo": "titulo:4107",
 		"esttp:perfil": "perfil:01"
