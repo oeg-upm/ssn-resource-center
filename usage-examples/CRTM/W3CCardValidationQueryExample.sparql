@@ -1,0 +1,13 @@
+SELECT DISTINCT (?feature AS ?idTitulo) (?title AS ?tituloValidacion) (?type AS ?tipoValidacion) (?profile as ?perfil) (?property AS ?propiedad) (?time AS ?fecha) (?observedBy AS ?dpaypoint)
+WHERE {
+    ?obs a esttp:CardValidation .
+    ?obs sosa:resultTime ?time .
+    ?obs sosa:madeBySensor ?observedBy . 
+    ?obs sosa:hasFeatureOfInterest ?feature . 
+    ?obs sosa:hasResult ?obsValue .
+    ?obsValue esttp:titulo ?title .
+    ?obsValue esttp:perfil ?profile .
+    ?obsValue esttp:tipoValidacion ?type .
+    ?obs sosa:observedProperty ?property .
+    FILTER(month(?time)=7 && year(?time)=2016)
+} LIMIT 100
