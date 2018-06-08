@@ -410,7 +410,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{355.47444722357295, 735.07345089850878}, {121, 24}}</string>
+			<string>{{355.47444722357341, 735.07345851201592}, {121, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -481,8 +481,8 @@
 			<integer>400</integer>
 			<key>Points</key>
 			<array>
-				<string>{246.49999370690867, 747.42451752511681}</string>
-				<string>{663.3606959653772, 746.5609898519449}</string>
+				<string>{246.49999370690867, 747.42452011752187}</string>
+				<string>{663.36069596537823, 746.56100479488464}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -504,7 +504,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{273.86629711461063, 788.08917200171652}, {134, 24}}</string>
+			<string>{{273.86615084758387, 788.08955590907374}, {134, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -575,8 +575,8 @@
 			<integer>396</integer>
 			<key>Points</key>
 			<array>
-				<string>{240.86996530123528, 771.23199933406238}</string>
-				<string>{486.83353230512989, 842.21273426972232}</string>
+				<string>{240.86971988502387, 771.23212033431503}</string>
+				<string>{486.83353076873573, 842.21350194938884}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -622,7 +622,7 @@
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs24 \cf0 estrnttp:\
+\f0\fs24 \cf0 esttp:\
 UserEntry}</string>
 			</dict>
 		</dict>
@@ -698,7 +698,7 @@ TransportCard}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{241.32387070762297, 683.38227349215663}, {93, 24}}</string>
+			<string>{{241.33641643727765, 683.38230896065579}, {93, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -769,8 +769,8 @@ TransportCard}</string>
 			<integer>388</integer>
 			<key>Points</key>
 			<array>
-				<string>{219.89947249916074, 722.91792877301407}</string>
-				<string>{386.97487383614884, 655.18776437748954}</string>
+				<string>{219.90540565543503, 722.91794458426739}</string>
+				<string>{386.9970843591617, 655.18782357518637}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -862,7 +862,7 @@ CardValidation}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{874.01305764161543, 575.60152994167311}, {96, 24}}</string>
+			<string>{{874.01311453732183, 575.60152994163468}, {96, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -933,8 +933,8 @@ CardValidation}</string>
 			<integer>420</integer>
 			<key>Points</key>
 			<array>
-				<string>{922.01311453732183, 837.94516752161474}</string>
-				<string>{922.01303127695428, 471.59584874963599}</string>
+				<string>{922.01311453732183, 837.94516752161462}</string>
+				<string>{922.01311453732183, 471.59584874957972}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -958,7 +958,7 @@ CardValidation}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{679.07818448229216, 572.27966334198027}, {96, 24}}</string>
+			<string>{{679.0782158566351, 572.27966334198049}, {96, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1030,7 +1030,7 @@ CardValidation}</string>
 			<key>Points</key>
 			<array>
 				<string>{727.0782158566351, 721.42901610283002}</string>
-				<string>{727.07813258787701, 357.42916108222812}</string>
+				<string>{727.0782158566351, 357.42916108222857}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1054,7 +1054,7 @@ CardValidation}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{399.92937011105897, 563.81840280216852}, {96, 24}}</string>
+			<string>{{399.92937203272965, 563.81840280216852}, {96, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1176,7 +1176,7 @@ CardValidation}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{525.06144155825223, 782.57676571235106}, {51, 24}}</string>
+			<string>{{525.06143890494627, 782.57676571235106}, {51, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1247,8 +1247,8 @@ CardValidation}</string>
 			<integer>412</integer>
 			<key>Points</key>
 			<array>
-				<string>{550.54280926876208, 835.5957947195393}</string>
-				<string>{550.70815087735002, 471.5958556710857}</string>
+				<string>{550.54280826401168, 835.5957947195393}</string>
+				<string>{550.70813524343441, 471.5958556710857}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1282,8 +1282,8 @@ CardValidation}</string>
 			<integer>411</integer>
 			<key>Points</key>
 			<array>
-				<string>{447.91595611557568, 605.50000004180492}</string>
-				<string>{448.08045852821937, 241.49999995819502}</string>
+				<string>{447.91595699414853, 605.50000004180492}</string>
+				<string>{448.08047219881331, 241.4999999581951}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1544,7 +1544,7 @@ CardValidation}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{274.11097785187877, 373.37789750549973}, {134, 24}}</string>
+			<string>{{274.11093481137152, 373.37794792633753}, {134, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1620,8 +1620,8 @@ CardValidation}</string>
 			<integer>373</integer>
 			<key>Points</key>
 			<array>
-				<string>{226.81457304864799, 351.99673379539524}</string>
-				<string>{476.60398266901626, 424.94969491383779}</string>
+				<string>{226.81456497425489, 351.99675381349351}</string>
+				<string>{476.60389817782749, 424.94978137569143}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1745,7 +1745,7 @@ CardValidation}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{274.28391105359589, 256.94896661995477}, {93, 24}}</string>
+			<string>{{274.28391105325596, 256.9489666198013}, {93, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1821,8 +1821,8 @@ CardValidation}</string>
 			<integer>258</integer>
 			<key>Points</key>
 			<array>
-				<string>{221.6352524920392, 309.79675614297014}</string>
-				<string>{390.30083085766415, 240.30901778310854}</string>
+				<string>{221.63525249191395, 309.79675614291364}</string>
+				<string>{390.30083085717365, 240.30901778288705}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1985,7 +1985,7 @@ CardValidation}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2018-05-31 17:40:16 +0000</string>
+	<string>2018-06-08 10:24:18 +0000</string>
 	<key>Modifier</key>
 	<string>Oscar Corcho</string>
 	<key>NotesVisible</key>
@@ -2080,7 +2080,7 @@ CardValidation}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{56.5, 256}, {1305, 687}}</string>
+		<string>{{55.5, 256}, {1305, 687}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
