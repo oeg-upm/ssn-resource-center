@@ -1,0 +1,135 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 3",
+    "columnName": "Column 3"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 2 to OPERADOR",
+    "oldColumnName": "Column 2",
+    "newColumnName": "OPERADOR"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 1 to IDOPERADOR",
+    "oldColumnName": "Column 1",
+    "newColumnName": "IDOPERADOR"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "dc",
+          "uri": "http://purl.org/dc/elements/1.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "IDOPERADOR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "curie": "skos:ConceptScheme"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "curie": "skos:hasTopConcept",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "IDOPERADOR",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://purl.org/dc/elements/1.1/title",
+                    "curie": "dc:title",
+                    "target": {
+                      "nodeType": "literal",
+                      "value": "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid"
+                    }
+                  },
+                  {
+                    "uri": "http://purl.org/dc/elements/1.1/date",
+                    "curie": "dc:date",
+                    "target": {
+                      "nodeType": "literal",
+                      "value": "2018-08-03",
+                      "valueType": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                  },
+                  {
+                    "uri": "http://purl.org/dc/elements/1.1/creator",
+                    "curie": "dc:creator",
+                    "target": {
+                      "nodeType": "literal",
+                      "value": "Paola Espinoza Arias (Universidad Politécnica de Madrid)"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "OPERADOR"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

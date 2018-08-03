@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-validacion> a skos:ConceptScheme;
+    skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-validacion/abono> ;
+    skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-validacion/sencillo> ;
+    skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-validacion/multiviaje> ;
+    dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" ;
+    dc:date "2018-08-03"^^xsd:date ;
+    dc:title "Tipos de validaciones de las tarjetas del sistema de transportes de la Comunidad de Madrid"@es .
+
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-validacion/abono> a skos:Concept ;
+	skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-validacion> ;
+	skos:prefLabel "Abono" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-validacion/sencillo> a skos:Concept ;
+	skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-validacion> ;
+	skos:prefLabel "Sencillo" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-validacion/multiviaje> a skos:Concept ;
+	skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-validacion> ;
+	skos:prefLabel "Multiviaje" .

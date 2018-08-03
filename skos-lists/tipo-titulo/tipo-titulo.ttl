@@ -1,0 +1,1801 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4097> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4097> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4097> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "30 DIAS ZONA A" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4098> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4098> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4098> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "30 DIAS ZONA B1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4099> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4099> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4099> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "30 DIAS ZONA B2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4100> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4100> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4100> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "30 DIAS ZONA B1-B2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4101> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4101> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4101> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "30 DIAS ZONA B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4102> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4102> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4102> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "30 DIAS ZONA C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4103> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4103> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4103> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "30 DIAS ZONA C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4104> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4104> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4104> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "30 DIAS ZONA E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4105> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4105> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4105> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "30 DIAS ZONA E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4106> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4106> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4106> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO UNIVERS ALCALA" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4107> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4107> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4107> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ANUAL ZONA A" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4108> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4108> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4108> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ANUAL ZONA B1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4109> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4109> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4109> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ANUAL ZONA B2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4110> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4110> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4110> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ANUAL ZONA B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4111> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4111> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4111> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ANUAL ZONA C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4112> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4112> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4112> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ANUAL ZONA C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4113> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4113> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4113> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ANUAL ZONA E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4114> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4114> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4114> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ANUAL ZONA E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4116> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4116> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4116> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 90 DIAS A" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4126> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4126> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4126> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO A 1 DIA" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4127> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4127> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4127> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO A 2 DIAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4128> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4128> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4128> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO A 3 DIAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4129> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4129> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4129> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO A 5 DIAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4130> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4130> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4130> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO A 7 DIAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4131> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4131> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4131> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO T 1 DIA" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4132> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4132> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4132> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO T 2 DIAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4133> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4133> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4133> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO T 3 DIAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4134> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4134> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4134> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO T 5 DIAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4135> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4135> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4135> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO T 7 DIAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4136> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4136> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4136> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B2-B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4137> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4137> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4137> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B3-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4138> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4138> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4138> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA C1-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4139> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4139> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4139> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B1-B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4140> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4140> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4140> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B2-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4141> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4141> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4141> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B3-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4142> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4142> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4142> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B1-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4143> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4143> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4143> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B2-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4144> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4144> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4144> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B1-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4145> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4145> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4145> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B1-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4146> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4146> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4146> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B1-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4147> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4147> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4147> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B2-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4148> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4148> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4148> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B2-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4149> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4149> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4149> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS TARJETA AZUL" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4150> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4150> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4150> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B1-B2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4151> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4151> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4151> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B1-B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4152> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4152> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4152> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B1-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4153> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4153> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4153> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B1-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4154> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4154> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4154> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B1-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4155> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4155> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4155> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B1-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4156> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4156> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4156> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B2-B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4157> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4157> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4157> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B2-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4158> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4158> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4158> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B2-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4159> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4159> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4159> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B2-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4160> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4160> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4160> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B2-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4161> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4161> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4161> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B3-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4162> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4162> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4162> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B3-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4163> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4163> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4163> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B3-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4164> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4164> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4164> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA B3-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4165> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4165> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4165> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA C1-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4166> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4166> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4166> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA C1-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4167> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4167> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4167> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA C1-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4168> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4168> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4168> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA C2-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4169> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4169> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4169> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA C2-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4170> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4170> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4170> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL ZONA E1-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4171> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4171> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4171> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B3-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4172> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4172> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4172> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA B3-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4173> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4173> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4173> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA C1-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4174> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4174> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4174> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA C1-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4175> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4175> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4175> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA C2-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4176> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4176> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4176> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS ZONA C2-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4178> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4178> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4178> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS TERCERA EDAD" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4179> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4179> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4179> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL TERCERA EDAD" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4180> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4180> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4180> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TARJETA TRANSPORTE PÚBLICO INFANTIL" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4181> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4181> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4181> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS JOVEN T. PLANA" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4182> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4182> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4182> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO ANUAL JOVEN T. PLANA" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4183> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4183> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4183> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "ABONO 30 DIAS PROG. ACTIV. EMPLEO" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4184> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4184> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4184> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO A 4 DIAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4185> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4185> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4185> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TURISTICO T 4 DIAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4369> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4369> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/4369> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TEMPORAL PRUEBAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/7001> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/7001> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/7001> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SUPLEMENTO AEROPUERTO BORRAR" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8193> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8193> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8193> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "MULTIVIAJE PRUEBAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8194> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8194> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8194> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "METROSUR 10 VIAJES" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8195> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8195> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8195> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TFM 10 VIAJES" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8196> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8196> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8196> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "METROBUS 10 VIAJES" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8197> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8197> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8197> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. A-B1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8198> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8198> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8198> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. A-B2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8199> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8199> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8199> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. A-B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8200> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8200> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8200> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. A-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8201> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8201> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8201> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. A-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8202> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8202> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8202> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. B1-B2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8203> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8203> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8203> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. B1-B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8204> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8204> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8204> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. B1-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8205> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8205> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8205> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. B1-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8206> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8206> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8206> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. B2-B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8207> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8207> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8207> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. B2-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8208> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8208> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8208> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. B2-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8209> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8209> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8209> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. B3-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8210> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8210> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8210> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. B3-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8211> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8211> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8211> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS INTER. C1-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8212> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8212> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8212> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS URBANO B1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8213> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8213> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8213> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS URBANO B2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8214> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8214> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8214> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS URBANO B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8215> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8215> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8215> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS URBANO C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8216> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8216> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8216> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS URBANO C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8217> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8217> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8217> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "METRONORTE 10 VIAJES" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8218> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8218> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8218> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "METROESTE 10 VIAJES" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8219> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8219> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8219> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "MLO 10 VIAJES" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8220> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8220> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8220> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "COMBINADO 10 VIAJES" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8221> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8221> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8221> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TRAN. PARLA 10 VIAJES" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8222> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8222> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8222> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "10 viajes EMT-Trans." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8223> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8223> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8223> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "PASE MUNICIPAL VALDEMORO" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8224> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8224> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8224> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "PASE MUNICIPAL PINTO" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8225> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8225> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8225> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "PASE MUNICIPAL PINTO BORRAR" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8228> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8228> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8228> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS RIVAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8229> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8229> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8229> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "BONOBUS PARACUELLOS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8230> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8230> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8230> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "TITULO AGENTE METRO" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8231> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8231> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/8231> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "MANTENIMIENTO METRO" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9473> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9473> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9473> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA  A-B1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9474> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9474> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9474> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA  A-B2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9475> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9475> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9475> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA  A-B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9476> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9476> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9476> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA  A-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9477> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9477> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9477> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA  A-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9478> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9478> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9478> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B1-B2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9479> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9479> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9479> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B1-B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9480> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9480> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9480> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B1-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9481> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9481> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9481> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B1-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9482> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9482> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9482> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B2-B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9483> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9483> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9483> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B2-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9484> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9484> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9484> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B2-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9485> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9485> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9485> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B3-C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9486> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9486> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9486> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B3-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9487> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9487> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9487> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA C1-C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9488> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9488> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9488> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9489> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9489> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9489> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9490> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9490> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9490> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA B3" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9491> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9491> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9491> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA C1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9492> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9492> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9492> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA C2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9493> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9493> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9493> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO CX-E1" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9494> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9494> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9494> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO CX-E2" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9495> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9495> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9495> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO CX-EX" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9496> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9496> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9496> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METRO 5 EST." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9497> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9497> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9497> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METRO 6 EST." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9504> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9504> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9504> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METRO 7 EST." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9505> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9505> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9505> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METRO 8 EST." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9506> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9506> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9506> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METRO 9 EST." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9507> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9507> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9507> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METRO 10 EST." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9508> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9508> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9508> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METRONORTE" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9509> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9509> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9509> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METROSUR" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9510> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9510> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9510> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METROESTE" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9511> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9511> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9511> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO TFM" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9512> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9512> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9512> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO MLO" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9513> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9513> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9513> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO COMBINADO" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9520> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9520> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9520> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO EMT" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9521> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9521> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9521> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO PARLA" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9522> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9522> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9522> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO ZONA A" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9523> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9523> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9523> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO AUTORIZACIÓN DE VIAJE METRO" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9524> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9524> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9524> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO CORTE DE SERVICIO METRO" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9525> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9525> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9525> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO URBANO RIVAS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9526> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9526> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9526> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO URBANO PARACUELLOS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9527> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9527> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9527> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METRO 10 EST. P" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9528> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9528> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9528> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO METRO 10 EST. Y AEROPUERTO. P" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9529> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9529> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/9529> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SENCILLO COMBINADO. P" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/28673> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/28673> ;
+	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo/28673> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-titulo> ;
+	skos:prefLabel "SUPLEMENTO AEROPUERTO" .
