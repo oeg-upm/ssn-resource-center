@@ -1,0 +1,186 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0A> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0A> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0A> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "BUS-BUS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0B> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0B> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0B> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Turístico normal" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0C> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0C> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0C> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Menor tutelado IMMF" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0D> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0D> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0D> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Turístico infantil" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0F> skos:prefLabel "Programa Activación y Empleo" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0F> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/0F> .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/00> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/00> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/00> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Ninguno" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/01> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/01> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/01> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Normal" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/02> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/02> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/02> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "3ª Edad" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/03> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/03> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/03> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Joven" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/04> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/04> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/04> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Infantil" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/05> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/05> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/05> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Universidad de Alcalá" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/06> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/06> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/06> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Tarjeta Azul" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/07> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/07> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/07> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Pensionista Valdemoro" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/08> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/08> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/08> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Disc. 33 Valdemoro" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/09> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/09> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/09> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Anónimo" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/11> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/11> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil/11> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/tipo-perfil> ;
+	skos:prefLabel "Pinto 3ª Edad" .

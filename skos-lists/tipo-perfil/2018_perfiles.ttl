@@ -1,0 +1,16 @@
+0A#BUS-BUS#
+0B#Turístico normal#
+0C#Menor tutelado IMMF#
+0D#Turístico infantil#
+0F#Programa Activación y Empleo#
+00#Ninguno#
+01#Normal#
+02#3ª Edad#
+03#Joven#
+04#Infantil#
+05#Universidad de Alcalá#
+06#Tarjeta Azul#
+07#Pensionista Valdemoro#
+08#Disc. 33 Valdemoro#
+09#Anónimo#
+11#Pinto 3ª Edad#

@@ -1,0 +1,481 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/AD> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/AD> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/AD> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "METROS LIGEROS DE MADRID S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/AF> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/AF> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/AF> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "METRO LIGERO OESTE S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/A9> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/A9> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/A9> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "T.F.M." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/B1> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/B1> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/B1> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "TRANVIA DE PARLA, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/02> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/02> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/02> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "METRO DE MADRID" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/03> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/03> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/03> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "EMPRESA MUNICIPAL DE TRANSPORTES DE MADRID, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/04> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/04> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/04> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "Cercanias RENFE" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/09> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/09> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/09> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AUTOBUSES PRISEI, S.L." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1A> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1A> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1A> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "ALSA METROPOLITANA, S.A.U." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1B> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1B> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1B> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "ARGABUS, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1C> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1C> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1C> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AUTO RES,S. L." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1E> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1E> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/1E> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AUTOBUSES SAMAR, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/2C> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/2C> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/2C> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "C.E.V.E.S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/2E> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/2E> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/2E> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "NEXCONTINENTAL HOLDINGS" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/2F> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/2F> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/2F> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "DE BLAS Y CIA. S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/20> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/20> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/20> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AUTOCARES BELTRAN, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/22> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/22> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/22> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AUTOCARES HERRANZ, S.L." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/23> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/23> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/23> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AUTOCARES JULIAN DE CASTRO, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/24> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/24> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/24> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AUTOCARES MOSAMO, S.L." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/25> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/25> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/25> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AUTOMNIBUS INTERURBANOS, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/26> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/26> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/26> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AUTOPERIFERIA, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/27> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/27> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/27> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AVANZA LINEAS INTERURBANAS, S.A.(SEPULVEDANA)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3A> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3A> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3A> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "HEREDEROS DE J. COLMENAREJO, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3B> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3B> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3B> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "INTERBUS, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3C> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3C> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3C> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "IRUBUS S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3D> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3D> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3D> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "LA VELOZ, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3E> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3E> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3E> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "LARREA SL" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3F> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3F> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/3F> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "LLORENTE BUS,S.L." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/30> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/30> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/30> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "DOROTEO CASADO MONTES" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/31> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/31> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/31> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "EL GATO, S.L." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/33> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/33> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/33> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "EMPRESA MARTIN, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/34> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/34> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/34> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "EMPRESA MUNICIPAL DE FUENLABRADA" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/35> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/35> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/35> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "EMPRESA RUIZ, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/36> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/36> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/36> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "EMPRESA TURISTICA DE AUTOBUSES SL" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/37> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/37> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/37> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "FLORA VILLA, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/38> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/38> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/38> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "FRANCISCO LARREA, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/39> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/39> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/39> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "ALCALABUS, S.L." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/4A> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/4A> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/4A> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "Castromil,S.A.U." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/4E> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/4E> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/4E> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AUTOBUSES URBANOS DE ARGANDA, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/43> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/43> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/43> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "SANJUAN ABAD S.L." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/45> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/45> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/45> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "TRANSPORTES ALACUBER, S.A." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/47> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/47> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/47> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "TRANSPORTES SANTO DOMINGO, S.L." .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/99> a skos:Concept .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/99> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-08-03"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador/99> skos:inScheme <http://crtm.linkeddata.es/kos/urbanismo-infraestructuras/transporte/operador> ;
+	skos:prefLabel "AVANZA INTERURBANOS, S.L.U." .
