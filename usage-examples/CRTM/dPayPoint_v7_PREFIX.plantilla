@@ -1,0 +1,13 @@
+# plantilla de PREFIX, tipo: dPaypoint, version: 7, rev 2016-09-13
+# Instancia en base a dPayPoint_v7_PREFIX.plantilla
+
+@prefix ttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#> . 
+@prefix tp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
+@prefix crtmDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
+@prefix crtmGeometria: <http://crtm.linkeddata.es/recurso/transporte/geometria/> . 
+@prefix crtmOperador: <http://crtm.linkeddata.es/recurso/transporte/operador/> . 
+@prefix crtmZona: <http://crtm.linkeddata.es/recurso/transporte/zona/> . 
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix schema: <https://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .

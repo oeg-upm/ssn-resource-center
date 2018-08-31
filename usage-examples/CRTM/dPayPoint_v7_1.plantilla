@@ -1,0 +1,18 @@
+# plantilla de Instancia: tipo: dPaypoint, version: 7, rev 2016-09-13
+# Instancia en base a dPayPoint_v7.plantilla
+<http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/[dpaypoint]> a ttp:DPayPoint ;
+	geosparql:hasGeometry <http://crtm.linkeddata.es/recurso/transporte/geometria/[dpaypoint]> ;
+	tp:operador <http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-operador]> ;
+	tp:parada <http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-parada]> ;
+	tp:linea <http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-linea]> ;
+	tp:coronaTarifaria <http://crtm.linkeddata.es/recurso/transporte/zona/[CORONATARIFARIA]> ;
+	tp:municipio <http://crtm.linkeddata.es/recurso/transporte/zona/[CODIGOMUNICIPIO]> ;
+	schema:postalCode <http://crtm.linkeddata.es/recurso/transporte/zona/[CODIGOPOSTAL]> .
+
+<http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-operador]> rdfs:label "[descripcion-operador]" ;
+	rdfs:label "[descripcion-parada]" ;
+	rdfs:label "[descripcion-linea]" . 
+
+<http://crtm.linkeddata.es/recurso/transporte/geometria/[dpaypoint]> a sf:Point ;
+	geosparql:asWKT "POINT([coordenadaX] [coordenadaY])"^^geosparql:wktLiteral ;
+	geosparql:crs "EPSG:4326" .
