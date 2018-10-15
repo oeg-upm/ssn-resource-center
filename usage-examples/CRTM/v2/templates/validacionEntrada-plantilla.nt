@@ -20,23 +20,22 @@
 
 
 #esttp:Validacion rdfs:subClassOf sosa:Observation.
-validacionInstancia:[nombre_instancia] a esttp:CardValidation;
-  rdfs:label "[nombre_instancia]";
-  rdfs:comment "VALIDACION tarjeta [serie_md5] en [fecha_hora_validacion]";
-  sosa:hasFeatureOfInterest ttpHash:[serie_md5];
-  sosa:hasResult validacionValor:[nombre_instancia];
-  sosa:resultTime "[fecha_hora_validacion]"^^xsd:dateTime;
-  sosa:madeBySensor ttpDpaypoint:[dpaypoint];
-  sosa:observedProperty esttp:Entrada .
+validacionInstancia:[nombre_instancia] a esttp:CardValidation .
+validacionInstancia:[nombre_instancia] rdfs:label "[nombre_instancia]" .
+validacionInstancia:[nombre_instancia] rdfs:comment "VALIDACION tarjeta [serie_md5] en [fecha_hora_validacion]" .
+validacionInstancia:[nombre_instancia] sosa:hasFeatureOfInterest ttpHash:[serie_md5] .
+validacionInstancia:[nombre_instancia] sosa:hasResult validacionValor:[nombre_instancia] .
+validacionInstancia:[nombre_instancia] sosa:resultTime "[fecha_hora_validacion]"^^xsd:dateTime .
+validacionInstancia:[nombre_instancia] sosa:madeBySensor ttpDpaypoint:[dpaypoint] .
+validacionInstancia:[nombre_instancia] sosa:observedProperty esttp:UserEntry .
 
 #esttp:ValorValidacion rdfs:subClassOf sosa:Result.
-validacionValor:[nombre_instancia] a esttp:CardValidationResult;
-  esttp:tipoValidacion <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/[tipo_titulo]>;
-  esttp:titulo titulo:[codigo_titulo]; 
-  esttp:perfil perfil:[codigo_perfil] .
+validacionValor:[nombre_instancia] a esttp:CardValidationResult .
+validacionValor:[nombre_instancia] esttp:validationType <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/[tipo_titulo]> .
+validacionValor:[nombre_instancia] esttp:titulo titulo:[codigo_titulo] .
+validacionValor:[nombre_instancia] esttp:perfil perfil:[codigo_perfil] .
 
 #esttp:DPayPoint rdfs:subClassOf sosa:Sensor.
 ttpDpaypoint:[dpaypoint] a esttp:DPayPoint .
 
-esttp:Entrada a sosa:ObservableProperty;
-  ssn:isPropertyOf <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico#[serie_md5]> .
+#esttp:UserEntry a sosa:ObservableProperty .
