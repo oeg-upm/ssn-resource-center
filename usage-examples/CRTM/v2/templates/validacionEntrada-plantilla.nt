@@ -1,4 +1,4 @@
-# plantilla de validación
+# plantilla de validaciÃ³n
 # 2018-05-31: changed value generation of esttp:tipoValidacion property
 # 2018-05-30: updated prefixes estp and esttp and their uris 
 # 2017-10-27: update using the SSN W3C Recommendation 19 October 2017
@@ -7,8 +7,6 @@
 
 @prefix estp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
 @prefix esttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#> .
-@prefix ssnOld: <http://purl.oclc.org/NET/ssnx/ssn> .
-@prefix ssn: <http://www.w3.org/ns/ssn/> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix ttpHash: <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/> . 
 @prefix ttpResultado: <http://crtm.linkeddata.es/recurso/transporte/validacion/resultado/> . 
@@ -18,7 +16,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix validacionValor: <http://crtm.linkeddata.es/recurso/transporte/validacion/valor/> .
 @prefix validacionInstancia: <http://crtm.linkeddata.es/recurso/transporte/validacion/> .
-# NOTA: por el momento, estamos poniendo una constante como tipo de validación: abono 
+# NOTA: por el momento, estamos poniendo una constante como tipo de validaciÃ³n: abono 
 
 
 #esttp:Validacion rdfs:subClassOf sosa:Observation.
