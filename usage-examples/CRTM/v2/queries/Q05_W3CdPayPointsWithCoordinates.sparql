@@ -1,0 +1,16 @@
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX esttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+SELECT DISTINCT ?dPayPoint ?geometry
+FROM NAMED <http://crtm.linkeddata.es/graph/data/validaciones>
+FROM NAMED <http://crtm.linkeddata.es/graph/data/dpaypoints>
+WHERE {
+    GRAPH <http://crtm.linkeddata.es/graph/data/validaciones> { 
+        ?obs a esttp:CardValidation . 
+        ?obs sosa:madeBySensor ?dPayPoint . 
+        # FILTER (?time >= "2016-03-08"^^xsd:date && ?time < "2016-03-10"^^xsd:date)
+    }
+    GRAPH <http://crtm.linkeddata.es/graph/data/dpaypoints> {
+        ?dPayPoint geosparql:hasGeometry/geosparql:asWKT ?geometry .
+    }
+ } LIMIT 10

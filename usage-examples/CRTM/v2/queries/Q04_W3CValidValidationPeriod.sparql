@@ -1,0 +1,16 @@
+PREFIX esttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+SELECT DISTINCT  ?hashTarjeta ?title ?perfil ?dPayPoint ?FechaYhora
+FROM NAMED <http://crtm.linkeddata.es/graph/data/validaciones>
+WHERE {
+    GRAPH <http://crtm.linkeddata.es/graph/data/validaciones> { 
+        ?obs a esttp:CardValidation . 
+        ?obs sosa:resultTime ?FechaYhora .
+        ?obs sosa:madeBySensor ?dPayPoint .             
+        ?obs sosa:hasFeatureOfInterest ?hashTarjeta .
+		?obs sosa:hasResult ?instanciaValidacion
+        ?instanciaValidacion esttp:titulo ?title .
+        ?instanciaValidacion esttp:perfil ?perfil .
+        FILTER (?FechaYhora>= "2016-03-08"^^xsd:date && ?FechaYhora< "2016-03-10"^^xsd:date)
+    }
+} LIMIT 10

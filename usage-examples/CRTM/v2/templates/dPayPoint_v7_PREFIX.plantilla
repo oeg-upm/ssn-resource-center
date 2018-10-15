@@ -1,8 +1,8 @@
 # plantilla de PREFIX, tipo: dPaypoint, version: 7, rev 2016-09-13
 # Instancia en base a dPayPoint_v7_PREFIX.plantilla
 
-@prefix ttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#> . 
-@prefix tp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
+@prefix esttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#> . 
+@prefix estp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
 @prefix crtmDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
 @prefix crtmGeometria: <http://crtm.linkeddata.es/recurso/transporte/geometria/> . 
 @prefix crtmOperador: <http://crtm.linkeddata.es/recurso/transporte/operador/> . 

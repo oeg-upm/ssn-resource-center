@@ -1,5 +1,5 @@
 # plantilla de validación
-# 2018-10-15: changed several terms according to the graphical documentation in the wiki
+# 2018-10-15: changed several terms according to the graphical documentation in the wiki and updated prefixes name
 # 2018-05-31: changed value generation of esttp:tipoValidacion property
 # 2018-05-30: updated prefixes estp and esttp and their uris 
 # 2017-10-27: update using the SSN W3C Recommendation 19 October 2017
@@ -9,9 +9,8 @@
 @prefix estp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#> .
 @prefix esttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
-@prefix ttpHash: <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/> . 
-@prefix ttpResultado: <http://crtm.linkeddata.es/recurso/transporte/validacion/resultado/> . 
-@prefix ttpDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
+@prefix crtmHash: <http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/> . 
+@prefix crtmDpaypoint: <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/> . 
 @prefix titulo: <http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/> .
 @prefix perfil: <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -24,10 +23,10 @@
 validacionInstancia:[nombre_instancia] a esttp:CardValidation .
 validacionInstancia:[nombre_instancia] rdfs:label "[nombre_instancia]" .
 validacionInstancia:[nombre_instancia] rdfs:comment "VALIDACION tarjeta [serie_md5] en [fecha_hora_validacion]" .
-validacionInstancia:[nombre_instancia] sosa:hasFeatureOfInterest ttpHash:[serie_md5] .
+validacionInstancia:[nombre_instancia] sosa:hasFeatureOfInterest crtmHash:[serie_md5] .
 validacionInstancia:[nombre_instancia] sosa:hasResult validacionValor:[nombre_instancia] .
 validacionInstancia:[nombre_instancia] sosa:resultTime "[fecha_hora_validacion]"^^xsd:dateTime .
-validacionInstancia:[nombre_instancia] sosa:madeBySensor ttpDpaypoint:[dpaypoint] .
+validacionInstancia:[nombre_instancia] sosa:madeBySensor crtmDpaypoint:[dpaypoint] .
 validacionInstancia:[nombre_instancia] sosa:observedProperty esttp:UserEntry .
 
 #esttp:ValorValidacion rdfs:subClassOf sosa:Result.
@@ -37,6 +36,6 @@ validacionValor:[nombre_instancia] esttp:titulo titulo:[codigo_titulo] .
 validacionValor:[nombre_instancia] esttp:perfil perfil:[codigo_perfil] .
 
 #esttp:DPayPoint rdfs:subClassOf sosa:Sensor.
-ttpDpaypoint:[dpaypoint] a esttp:DPayPoint .
+crtmDpaypoint:[dpaypoint] a esttp:DPayPoint .
 
 #esttp:UserEntry a sosa:ObservableProperty .

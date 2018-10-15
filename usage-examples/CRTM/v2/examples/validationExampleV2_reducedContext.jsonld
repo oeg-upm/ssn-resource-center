@@ -1,5 +1,5 @@
 {
-    "@context": ["http://oeg-upm.github.io/ssn-resource-center/json-ld/ssnContextV2.json","http://oeg-upm.github.io/ssn-resource-center/json-ld/crtmContextV2.json"],
+    "@context": ["https://github.com/oeg-upm/ssn-resource-center/blob/master/json-ld/ssnContextV2.json","https://github.com/oeg-upm/ssn-resource-center/blob/master/json-ld/crtmContextV2.json"],
     "@id": "validacionInstancia:VAL_CF446342E9FD3D2FB6F16003EF28A3FD",
     "@type": "esttp:CardValidation",
     "rdfs:comment": "VALIDACION tarjeta 0421BAF79E2B05C7CA3E39BEE4837E1A en 2016-07-01T14:29:58",

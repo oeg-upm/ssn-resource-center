@@ -2,11 +2,11 @@
 # Instancia en base a dPayPoint_v7.plantilla
 <http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/[dpaypoint]> a ttp:DPayPoint ;
 	geosparql:hasGeometry <http://crtm.linkeddata.es/recurso/transporte/geometria/[dpaypoint]> ;
-	tp:operador <http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-operador]> ;
-	tp:parada <http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-parada]> ;
-	tp:linea <http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-linea]> ;
-	tp:coronaTarifaria <http://crtm.linkeddata.es/recurso/transporte/zona/[CORONATARIFARIA]> ;
-	tp:municipio <http://crtm.linkeddata.es/recurso/transporte/zona/[CODIGOMUNICIPIO]> ;
+	estp:operador <http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-operador]> ;
+	estp:parada <http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-parada]> ;
+	estp:linea <http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-linea]> ;
+	estp:coronaTarifaria <http://crtm.linkeddata.es/recurso/transporte/zona/[CORONATARIFARIA]> ;
+	estp:municipio <http://crtm.linkeddata.es/recurso/transporte/zona/[CODIGOMUNICIPIO]> ;
 	schema:postalCode <http://crtm.linkeddata.es/recurso/transporte/zona/[CODIGOPOSTAL]> .
 
 <http://crtm.linkeddata.es/recurso/transporte/operador/[codigo-operador]> rdfs:label "[descripcion-operador]" ;

@@ -1,0 +1,16 @@
+PREFIX esttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+SELECT ?idTarjeta ?tipoDocumento ?genero ?fechaNacimiento ?localidad ?provincia ?codigoPostal ?coordenadas 
+WHERE {
+    ?usuario a esttp:Usuario .
+    ?usuario esttp:idTarjeta ?idTarjeta .
+    ?usuario esttp:tipoDocumento ?tipoDocumento .
+    ?usuario schema:gender ?genero .
+    ?usuario schema:birthDate ?fechaNacimiento .
+    ?usuario schema:address ?postalAddress .
+    ?postalAddress schema:addressRegion ?provincia .
+    ?postalAddress schema:addressLocality ?localidad .
+    ?postalAddress schema:postalCode ?codigoPostal .
+    ?postalAddress geosparql:hasGeometry ?geometry .
+    ?geometry geosparql:asWKT ?coordenadas .
+}

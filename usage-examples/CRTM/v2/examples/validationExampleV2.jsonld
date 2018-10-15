@@ -31,9 +31,9 @@
         "estp": "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#",
         "esttp": "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#",
         "crtm": "http://crtm.linkeddata.es/datosabiertos/recurso/transporte/",
-	"ttpHash": "http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/",
-	"ttpResultado": "http://crtm.linkeddata.es/recurso/transporte/validacion/resultado/",
-	"ttpDpaypoint": "http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/",
+	"crtmHash": "http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/",
+	"crtmResultado": "http://crtm.linkeddata.es/recurso/transporte/validacion/resultado/",
+	"crtmDpaypoint": "http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/",
 	"titulo": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/",
 	"perfil": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/",
 	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
@@ -44,7 +44,7 @@
     "@type": "esttp:CardValidation",
     "rdfs:comment": "VALIDACION tarjeta 0421BAF79E2B05C7CA3E39BEE4837E1A en 2016-07-01T14:29:58",
     "sosa:madeBySensor": {
-        "@id":"ttpDpaypoint:02_L7_P21",
+        "@id":"crtmDpaypoint:02_L7_P21",
         "@type":"esttp:CardValidationSensor"
     },
     "sosa:resultTime": "2016-07-01T14:29:58",
@@ -53,7 +53,7 @@
         "@type": "sosa:ObservableProperty"
     },
     "sosa:hasFeatureOfInterest": {
-        "@id":"ttpHash:0421BAF79E2B05C7CA3E39BEE4837E1A",
+        "@id":"crtmHash:0421BAF79E2B05C7CA3E39BEE4837E1A",
         "@type":"esttp:TransportCard"
     },
     "sosa:hasResult": {
