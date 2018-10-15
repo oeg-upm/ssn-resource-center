@@ -31,16 +31,16 @@
         "estp": "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#",
         "esttp": "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#",
         "crtm": "http://crtm.linkeddata.es/datosabiertos/recurso/transporte/",
-		"ttpHash": "http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/",
-		"ttpResultado": "http://crtm.linkeddata.es/recurso/transporte/validacion/resultado/",
-		"ttpDpaypoint": "http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/",
-		"titulo": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/",
-		"perfil": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"validacionValor": "http://crtm.linkeddata.es/recurso/transporte/validacion/valor/",
-		"validacionInstancia": "http://crtm.linkeddata.es/recurso/transporte/validacion/"
+	"ttpHash": "http://crtm.linkeddata.es/recurso/transporte/tarjeta-transporte-publico/",
+	"ttpResultado": "http://crtm.linkeddata.es/recurso/transporte/validacion/resultado/",
+	"ttpDpaypoint": "http://crtm.linkeddata.es/recurso/transporte/validacion/dpaypoint/",
+	"titulo": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/",
+	"perfil": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/",
+	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+	"validacionValor": "http://crtm.linkeddata.es/recurso/transporte/validacion/valor/",
+	"validacionInstancia": "http://crtm.linkeddata.es/recurso/transporte/validacion/"
     },  
-  	"@id": "validacionInstancia:VAL_CF446342E9FD3D2FB6F16003EF28A3FD",
+    "@id": "validacionInstancia:VAL_CF446342E9FD3D2FB6F16003EF28A3FD",
     "@type": "esttp:CardValidation",
     "rdfs:comment": "VALIDACION tarjeta 0421BAF79E2B05C7CA3E39BEE4837E1A en 2016-07-01T14:29:58",
     "sosa:madeBySensor": {
@@ -49,19 +49,18 @@
     },
     "sosa:resultTime": "2016-07-01T14:29:58",
     "sosa:observedProperty": {
-        "@id": "esttp:Entrada",
-        "@type": "sosa:ObservableProperty",
-        "ssn:isPropertyOf": "ttpHash:0421BAF79E2B05C7CA3E39BEE4837E1A"
+        "@id": "esttp:UserEntry",
+        "@type": "sosa:ObservableProperty"
     },
     "sosa:hasFeatureOfInterest": {
         "@id":"ttpHash:0421BAF79E2B05C7CA3E39BEE4837E1A",
-        "@type":"esttp:TarjetaTransporte"
+        "@type":"esttp:TransportCard"
     },
     "sosa:hasResult": {
         "@id": "validacionValor:VAL_CF446342E9FD3D2FB6F16003EF28A3FD",
         "@type": "esttp:CardValidationResult",
-        "esttp:tipoValidacion": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono",
+        "esttp:validationType": "http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipovalidacion/abono",
         "esttp:titulo": "titulo:4107",
-		"esttp:perfil": "perfil:01"
+	"esttp:perfil": "perfil:01"
     }
 }
