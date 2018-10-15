@@ -24,7 +24,6 @@
 @prefix geosf: <http://www.opengis.net/ont/sf#> .
 @prefix schema: <https://schema.org/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ssn: <http://www.w3.org/ns/ssn/> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 
 # esttp:DPayPoint rdfs:subClassOf sosa:Sensor .
