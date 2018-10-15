@@ -1,3 +1,6 @@
+PREFIX estp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#>
+PREFIX esttp: <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico/tarjeta#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
 SELECT DISTINCT (?feature AS ?idTitulo) (?title AS ?tituloValidacion) (?type AS ?tipoValidacion) (?profile as ?perfil) (?property AS ?propiedad) (?time AS ?fecha) (?observedBy AS ?dpaypoint)
 WHERE {
     ?obs a esttp:CardValidation .
