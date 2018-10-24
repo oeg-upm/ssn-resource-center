@@ -14,5 +14,5 @@
 	rdfs:label "[descripcion-linea]" . 
 
 <http://crtm.linkeddata.es/recurso/transporte/geometria/[dpaypoint]> a sf:Point ;
-	geosparql:asWKT "POINT([coordenadaX] [coordenadaY])"^^geosparql:wktLiteral ;
+	geosparql:asWKT "POINT([coordenadaY] [coordenadaX])"^^geosparql:wktLiteral ;
 	geosparql:crs "EPSG:4326" .
