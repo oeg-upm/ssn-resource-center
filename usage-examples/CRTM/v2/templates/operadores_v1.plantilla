@@ -1,0 +1,16 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix operador: <http://vocab.linkeddata.es/datosabiertos/kos/transporte/operador/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/operador> a skos:ConceptScheme .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/operador> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-validacion/[CODIGO_OPERADOR]> .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/operador> dc:creator "Consorcio Reginal de Transportes de Madrid (CRTM)" .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/operador> dc:date [FECHA_ACTUAL]^^xsd:date .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/operador> dc:title "Operadores del sistema de transportes de la Comunidad de Madrid"@es .
+
+operador:[CODIGO_OPERADOR] a skos:Concept .
+operador:[CODIGO_OPERADOR] skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/operador> .
+operador:[CODIGO_OPERADOR] skos:prefLabel "[DESC_OPERADOR]"@es .

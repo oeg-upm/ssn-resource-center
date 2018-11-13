@@ -1,0 +1,16 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix perfil: <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> a skos:ConceptScheme .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-validacion/[CODIGO_PERFIL]> .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> dc:creator "Consorcio Reginal de Transportes de Madrid (CRTM)" .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> dc:date [FECHA_ACTUAL]^^xsd:date .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> dc:title "Perfiles del sistema de transportes de la Comunidad de Madrid"@es .
+
+perfil:[CODIGO_PERFIL] a skos:Concept .
+perfil:[CODIGO_PERFIL] skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> .
+perfil:[CODIGO_PERFIL] skos:prefLabel "[DESC_PERFIL]"@es .

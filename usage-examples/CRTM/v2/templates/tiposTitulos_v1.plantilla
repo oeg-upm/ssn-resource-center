@@ -1,0 +1,16 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix titulo: <http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo> a skos:ConceptScheme .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-validacion/[CODIGO_TITULO]> .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo> dc:creator "Consorcio Reginal de Transportes de Madrid (CRTM)" .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo> dc:date [FECHA_ACTUAL]^^xsd:date .
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo> dc:title "Tipos de títulos del sistema de transportes de la Comunidad de Madrid"@es .
+
+titulo:[CODIGO_TITULO] a skos:Concept .
+titulo:[CODIGO_TITULO] skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo> .
+titulo:[CODIGO_TITULO] skos:prefLabel "[DESC_TITULO]"@es .
