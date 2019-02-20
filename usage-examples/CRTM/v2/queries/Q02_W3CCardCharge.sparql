@@ -10,7 +10,7 @@ WHERE {
     ?obs sosa:hasResult ?obsValue .
     ?obsValue esttp:titulo ?title .
     ?obsValue esttp:perfil ?profile .
-    ?obsValue esttp:tipoValidacion ?type .
+    ?obsValue esttp:validationType ?type .
     ?obs sosa:observedProperty ?property .
     FILTER(month(?time)=7 && year(?time)=2016)
 } LIMIT 100
